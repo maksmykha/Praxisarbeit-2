@@ -11,8 +11,8 @@
 %% @stud
 %%
 %% LANGUAGE SETTINGS
-\usepackage[ngerman]{babel} 	        % german language
-\usepackage[german=quotes]{csquotes} 	% correct quoting using \enquote{}
+\usepackage[ngerman, english]{babel} 	        % german language
+\usepackage{csquotes} 	% correct quoting using \enquote{}
 %\usepackage[english]{babel}          % english language
 %\usepackage{csquotes} 	              % correct quoting using \enquote{}
 
@@ -126,7 +126,7 @@
 \renewcommand{\Abgabedatum}[1]{\def\DasAbgabedatum{#1}}
 \renewcommand{\Matrikelnummer}[1]{\def\DieMatrikelnummer{#1}}
 \renewcommand{\Studienrichtung}[1]{\def\DieStudienrichtung{#1}}
-\newcommand{\ArtDerArbeit}[1]{\def\DieArtDerArbeit{#1}}
+\renewcommand{\ArtDerArbeit}[1]{\def\DieArtDerArbeit{#1}}
 \renewcommand{\Literaturverzeichnis}{Literaturverzeichnis}
 
 \newcommand{\settingBibFootnoteCite}{
