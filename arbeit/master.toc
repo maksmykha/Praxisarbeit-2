@@ -1,31 +1,71 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{List of Figures}{v}{section*.4}%
-\contentsline {chapter}{List of Tables}{vi}{section*.5}%
-\contentsline {chapter}{\nonumberline Quelltextverzeichnis}{vii}{chapter*.6}%
-\contentsline {chapter}{\nonumberline Algorithmenverzeichnis}{viii}{chapter*.7}%
-\contentsline {chapter}{Abkürzungsverzeichnis}{ix}{chapter*.8}%
-\contentsline {chapter}{Kurzfassung (Abstract)}{x}{chapter*.9}%
+\contentsline {chapter}{List of Figures}{vi}{section*.4}%
+\contentsline {chapter}{List of Tables}{vii}{section*.5}%
+\contentsline {chapter}{\nonumberline Quelltextverzeichnis}{viii}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Algorithmenverzeichnis}{ix}{chapter*.7}%
+\contentsline {chapter}{Abkürzungsverzeichnis}{x}{chapter*.8}%
+\contentsline {chapter}{Kurzfassung (Abstract)}{xi}{chapter*.9}%
 \contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}Grundlage}{2}{chapter.2}%
+\contentsline {chapter}{\numberline {2}Theoretische und technische Grundlagen}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Einführung in das Product Lifecycle Management}{2}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Porduct lifecycle Phases}{2}{subsection.2.1.1}%
-\contentsline {section}{\numberline {2.2}Grundlage zu PLM-Systeme}{3}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}3DExpirience-Plattform}{4}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}PLM/ERP/MES-Dreieck}{4}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Künstliche Intelligenz für PLM}{4}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Grundlage zu den KI-Technologien}{4}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Einführung in die Machine Learning}{4}{subsection.2.3.1}%
-\contentsline {section}{\numberline {2.4}Materialentwicklung in der Automobilindustrie}{4}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Machine Learning In der Materialentwicklung}{4}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Nachhaltigkeit der Materialien}{4}{subsection.2.4.2}%
-\contentsline {chapter}{\numberline {3}Beispiel-Kapitel: Noch ein Kapitel}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Abschnitt mit Coding}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Noch ein Abschnitt mit Coding}{5}{section.3.2}%
-\contentsline {chapter}{\numberline {4}Zusammenfassung}{6}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Fazit}{6}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Ausblick}{6}{section.4.2}%
-\contentsline {chapter}{Anhang}{}{section.4.2}
-\contentsline {chapter}{\numberline {A}Beispiel-Anhang: Testanhang}{7}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Abschnitt im Anhang}{7}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Noch ein Abschnitt im Anhang}{7}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Beispiel-Anhang: Noch ein Testanhang}{9}{appendix.B}%
+\contentsline {subsection}{\numberline {2.1.1}Konzept der PLM}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Produktlebenszyklusphasen}{3}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}PLM Grid und organisatorische Einbettung}{4}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Definition von Product Data Management (PDM)}{5}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Integration und Interoperabilität (CAD/CAE/CAM, ERP/MES/SCM)}{6}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Digital Thread und Digital Twin im PLM-Kontext}{6}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Beispielsystem: Siemens Teamcenter}{6}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Künstliche Intelligenz und Machine Learning}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Grundlagen des Maschinellen Lernens}{7}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Ansätze des Machine Learning}{7}{subsection.2.2.2}%
+\contentsline {subsubsection}{\nonumberline Überwachtes Lernen (Supervised Learning)}{8}{subsubsection*.14}%
+\contentsline {subsubsection}{\nonumberline Unüberwachtes Lernen (Unsupervised Learning)}{9}{subsubsection*.16}%
+\contentsline {subsubsection}{\nonumberline Bestärkendes Lernen (Reinforcement Learning)}{9}{subsubsection*.18}%
+\contentsline {subsection}{\numberline {2.2.3}Evaluierungsmetriken im Machine Learning}{10}{subsection.2.2.3}%
+\contentsline {subsubsection}{\nonumberline MAE (Mean Absolute Error)}{10}{subsubsection*.20}%
+\contentsline {subsubsection}{\nonumberline RMSE (Root Mean Squared Error)}{10}{subsubsection*.22}%
+\contentsline {subsubsection}{\nonumberline $R^2$ (Koeffizient der Determination)}{11}{subsubsection*.24}%
+\contentsline {subsection}{\numberline {2.2.4}Erklärbare Künstliche Intelligenz (XAI)}{11}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Modelvertrauen}{12}{subsection.2.2.5}%
+\contentsline {section}{\numberline {2.3}Daten \& Repräsentationen}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Datentypen}{13}{subsection.2.3.1}%
+\contentsline {subsubsection}{\nonumberline Unstrukturierte Daten}{13}{subsubsection*.26}%
+\contentsline {subsubsection}{\nonumberline Semi-strukturierte Daten}{13}{subsubsection*.28}%
+\contentsline {subsubsection}{\nonumberline Strukturierte Daten}{13}{subsubsection*.30}%
+\contentsline {subsection}{\numberline {2.3.2}Datenvorbereitung (Data Preprocessing)}{14}{subsection.2.3.2}%
+\contentsline {subsubsection}{\nonumberline Data Leakage}{16}{subsubsection*.33}%
+\contentsline {subsection}{\numberline {2.3.3}Feature Selection und Feature Engineering}{17}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Materialrepräsentationen und Deskriptoren?!}{17}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}physickbasierte Materialrepräsentation}{17}{subsection.2.3.5}%
+\contentsline {chapter}{\numberline {3}Materialentwicklung im industriellen Kontext}{18}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Einführung in die Materialentwicklung}{18}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Klassische Materialentwicklung}{18}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Rechnergestützte Materialentwicklung}{19}{subsection.3.1.2}%
+\contentsline {subsubsection}{\nonumberline Dichtefunktionaltheorie (DFT) und Simulation}{19}{subsubsection*.35}%
+\contentsline {section}{\numberline {3.2}(moderne) Materialentwicklung in der Automobilindustrie}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Materialvielfalt und Werkstofen}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}PLM-gestützte Materialdatenhaltung}{20}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Zielkonflikte zwischen Kosten, Gewicht und Performance}{21}{subsection.3.2.3}%
+\contentsline {subsubsection}{\nonumberline Beispiel energie- und kostenintensiver Prozesse}{21}{subsubsection*.38}%
+\contentsline {subsection}{\numberline {3.2.4}KI für die Materialentwicklung}{21}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Materials Datenbanken \& Datenquellen}{22}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Physik‑informiertes Machine Learning in der Materialwissenschaft}{22}{subsection.3.3.1}%
+\contentsline {chapter}{\numberline {4}Nachhaltigkeit in der Materialentwicklung}{23}{chapter.4}%
+\contentsline {subsection}{\numberline {4.0.1}Nachhaltigkeit}{23}{subsection.4.0.1}%
+\contentsline {subsection}{\numberline {4.0.2}Nachhaltigkeit der Materialien}{24}{subsection.4.0.2}%
+\contentsline {subsubsection}{\nonumberline Lebenszyklusbetrachtung (LCA)}{24}{subsubsection*.40}%
+\contentsline {chapter}{\numberline {5}Methodik der KI-gestützten Materialanalyse(CRISM-DM)}{25}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Evaluierung des KI‑Einsatzes}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Evaluierungsstrategie}{26}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Beispiel-Kapitel: Noch ein Kapitel}{27}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Abschnitt mit Coding}{27}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Noch ein Abschnitt mit Coding}{27}{section.7.2}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung}{28}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Fazit}{28}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Ausblick}{28}{section.8.2}%
+\contentsline {chapter}{Anhang}{}{section.8.2}
+\contentsline {chapter}{\numberline {A}Beispiel-Anhang: Testanhang}{29}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Abschnitt im Anhang}{29}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Noch ein Abschnitt im Anhang}{29}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Beispiel-Anhang: Noch ein Testanhang}{31}{appendix.B}%
+\contentsline {chapter}{\nonumberline Bibliography}{32}{chapter*.41}%

@@ -1,0 +1,93 @@
+% !TEX root =  master.tex
+\chapter{Materialentwicklung im industriellen Kontext}
+In diesem Kapitel wird das Thema Materialentwicklung behandelt...
+\section {Einführung in die Materialentwicklung}
+
+Materialien bilden die Grundlage nahezu aller technologischen Entwicklungen. Fortschritte in Bereichen wie Energieumwandlung, Informations- und Kommunikationstechnologie, Mobilität, Medizintechnik oder nachhaltiger Produktion sind unmittelbar an die Verfügbarkeit neuer oder verbesserter Materialien gekoppelt. Historisch betrachtet markieren neue Werkstoffe – etwa Bronze, Stahl, Halbleiter oder Polymere – jeweils technologische Umbrüche ganzer Zivilisationen. Entsprechend gilt die Materialentwicklung als eine der zentralen Triebfedern technologischen Fortschritts. \cite{kroon2008small}
+
+
+
+\subsection{Klassische Materialentwicklung}
+
+Trotz dieser langen Forschungstradition befindet sich die Materialwissenschaft heute an einem paradoxen Punkt: Einerseits existiert ein umfangreiches Wissen über Struktur‑Eigenschafts‑Beziehungen bekannter Materialien, andererseits ist der überwiegende Teil des theoretisch möglichen Materialraums bislang unerforscht. Aktuelle Abschätzungen gehen davon aus, dass bisher lediglich etwa 1\,\% aller theoretisch möglichen chemischen Verbindungen synthetisiert und charakterisiert wurden. Der verbleibende Teil stellt einen weitgehend unerschlossenen Raum mit potenziell neuartigen und teilweise revolutionären Eigenschaften dar, etwa für Anwendungen in der Energiespeicherung, Katalyse, Quantentechnologien oder der Biomedizin. \cite{xiang1995combinatorial}
+
+Aufgrund des hohen Zeit‑ und Kostenaufwands ist die systematische Erschließung dieses enormen Suchraums mit klassischen experimentellen Methoden jedoch kaum zu bewältigen. Die Motivation moderner Materialentwicklung liegt daher zunehmend in der Beschleunigung der Entdeckung neuer Materialien(wegen der neuer Regulatorik, ), insbesondere durch datengetriebene, rechnergestützte und automatisierte Ansätze. \cite{tomlinson2010principles}
+
+\subsection{Rechnergestützte Materialentwicklung} 
+
+Die rechnergestützte Materialentwicklung zielt darauf ab, experimentelle Entwicklungsprozesse durch simulations- und datenbasierte Methoden zu ergänzen oder teilweise zu ersetzen. Zentrale Ansätze sind dabei physikbasierte Simulationen, insbesondere Methoden der Dichtefunktionaltheorie (DFT), mit denen elektronische, mechanische und thermodynamische Materialeigenschaften berechnet werden können.
+Darüber hinaus ermöglichen High-Throughput-Simulationen die systematische Untersuchung großer Materialräume, indem tausende potenzieller Materialkombinationen automatisiert bewertet werden. Diese Ansätze reduzieren den experimentellen Aufwand erheblich, sind jedoch weiterhin mit hohen Rechenkosten verbunden und skalieren nur begrenzt auf komplexe industrielle Randbedingungen.
+Vor diesem Hintergrund gewinnen datengetriebene Methoden zunehmend an Bedeutung, da sie rechnergestützte Ergebnisse mit experimentellen Daten kombinieren und so eine effizientere Exploration des Materialraums ermöglichen. \cite{kihara2012computer}
+
+\subsubsection{Dichtefunktionaltheorie (DFT) und Simulation}
+
+
+
+\section{(moderne) Materialentwicklung in der Automobilindustrie}
+Die Automobilindustrie zählt zu den material- und ressourcenintensivsten Industriezweigen und stellt daher ein zentrales Anwendungsfeld moderner Materialentwicklung dar. Fahrzeuge bestehen aus einer Vielzahl unterschiedlicher Werkstoffe, deren Auswahl und Kombination maßgeblichen Einfluss auf Gewicht, Sicherheit, Kosten, Energieverbrauch sowie ökologische Auswirkungen über den gesamten Produktlebenszyklus hinweg haben.
+
+\subsection{Materialvielfalt und Werkstofen}
+Die Auswahl geeigneter Werkstoffe stellt insbesondere im Automobilbau einen zunehmend datengetriebenen Entscheidungsprozess dar. Fahrzeuge bestehen aus einer Vielzahl unterschiedlicher Materialien, darunter Stahl, Aluminium, Magnesium, Kunststoffe sowie Faserverbundwerkstoffe wie kohlenstofffaserverstärkte Kunststoffe. Die Bewertung dieser Werkstoffe erfordert die Berücksichtigung zahlreicher Kriterien, darunter mechanische, thermische und chemische Eigenschaften, Herstellbarkeit, Lebensdauer, Kosten sowie ökologische Auswirkungen. \cite{fentahun2018materials}
+
+Fahrzeuge bestehen aus einer Vielzahl unterschiedlicher Materialien (Abb. \ref{Metalls}), darunter Metalle, Polymere, Kunststoffe und Faserverbundwerkstoffe, deren Nachhaltigkeit entlang des gesamten Produktlebenszyklus bewertet und optimiert werden muss. Mehr als die Hälfte des gesamten Materialvolumens eines modernen Fahrzeugs entfällt auf Gusseisen‑ und Stahlbauteile (ca.~55\,\%). Kunststoffe machen etwa 11\,\% aus, gefolgt von Aluminiumlegierungen mit rund 9\,\%. Weitere Materialanteile entfallen auf Gummi (ca.~7\,\%) und Glas (ca.~3\,\%), während der Anteil von Nichteisenlegierungen wie Magnesium, Titan, Kupfer und Zink insgesamt unter 1\,\% liegt. Sonstige Materialien, darunter Lacke, Beschichtungen, elektrische Leitungen und Verkleidungsmaterialien, machen etwa 13{,}5\,\% aus. \cite{hovorun2017modern}(FOTO)
+
+\begin{figure}[h] % h = here (hier), t = top, b = bottom
+	\centering
+	\includegraphics[width=1.1\textwidth]{\imagedir/Metalls.png} % Bildname ohne Endung
+	\caption{Verteilung der Werkstoffklassen im Automobilbau und deren relative Materialanteile. \cite{hovorun2017modern}}
+	\label{Metalls}
+\end{figure}
+ 
+ 
+\subsection{PLM-gestützte Materialdatenhaltung}
+Mit der zunehmenden Digitalisierung und der Verfügbarkeit umfangreicher Produkt‑ und Materialdaten gewinnen PLM‑Systeme als zentrale Datenbasis für die Materialauswahl an Bedeutung. In PLM‑Systemen werden Materialkennwerte, Simulationsergebnisse, Fertigungsdaten sowie Rückmeldungen aus Nutzung und Service über den gesamten Produktlebenszyklus hinweg konsolidiert. Diese integrierte Datenbasis bildet die Voraussetzung für den Einsatz KI‑gestützter Methoden zur Unterstützung materialbezogener Entscheidungen.
+Künstliche Intelligenz ermöglicht es, große Mengen heterogener Material‑ und Prozessdaten automatisiert zu analysieren und Zusammenhänge zu identifizieren, die mit klassischen Methoden nur schwer erkennbar sind. Auf dieser Grundlage können KI‑Modelle alternative Werkstoffe vorschlagen, Zielkonflikte zwischen Gewicht, Kosten und Leistungsfähigkeit bewerten oder Materialentscheidungen hinsichtlich ihrer Auswirkungen auf den gesamten Produktlebenszyklus prognostizieren. \cite{munsch2024anwendung}
+
+
+
+
+\subsection{Zielkonflikte zwischen Kosten, Gewicht und Performance}
+
+
+%NACHSCHREIBEN!!!!!!!!!!!!!!!!!
+Ein typisches Anwendungsbeispiel ist der Vergleich konventioneller Werkstoffe wie Stahl mit Faserverbundmaterialien. Während kohlenstofffaserverstärkte Kunststoffe Vorteile hinsichtlich Gewicht, Festigkeit und Korrosionsbeständigkeit bieten, sind sie häufig mit höheren Material‑ und Prozesskosten verbunden. KI‑gestützte Analysen innerhalb eines PLM‑Systems ermöglichen es, diese Vor‑ und Nachteile datenbasiert abzuwägen und unter Berücksichtigung von Lebenszykluskosten, Fertigungsrestriktionen und Nachhaltigkeitszielen fundierte Entscheidungen zu treffen. \cite{pendar2022review}
+
+Trotz des Potenzials neuer Werkstoffe bleibt Stahl aufgrund seiner Wirtschaftlichkeit, hohen Verfügbarkeit und kontinuierlichen Weiterentwicklung ein zentraler Werkstoff im Automobilbau. Die Kombination aus PLM‑basiertem Materialdatenmanagement und KI‑gestützter Entscheidungsunterstützung eröffnet jedoch neue Möglichkeiten, Materialauswahlprozesse zu optimieren und innovative sowie nachhaltige Fahrzeugkonzepte zu realisieren. \cite{fentahun2018materials}
+
+
+\subsubsection{Beispiel energie- und kostenintensiver Prozesse}
+Ein anschauliches Beispiel für die Bedeutung materialbezogener Entscheidungen sind Lackierprozesse im Automobilbau. Diese Prozesse sind energieintensiv, erfordern mehrere Prozessschritte sowie hohe Temperaturen und tragen erheblich zu den Umweltwirkungen eines Fahrzeugs bei.
+Die Wahl geeigneter Materialien und Oberflächen kann den Umfang oder sogar die Notwendigkeit bestimmter Beschichtungsprozesse reduzieren. Damit wird deutlich, dass Materialentscheidungen bereits in frühen Entwicklungsphasen maßgeblichen Einfluss auf nachgelagerte Fertigungsprozesse, Kostenstrukturen und Nachhaltigkeitskennzahlen haben. Genau an diesem Punkt setzt die KI-gestützte Materialentwicklung an, indem sie potenzielle Materialalternativen frühzeitig bewertet und energie- sowie ressourcenintensive Prozesse vermeidet. \cite{sustanibility} %Ist das hier nötig?!?!?!?!?!?!?!?!?!??!?!? es sieht unnötig aus, ich muss ese richtig intepretieren 
+
+\subsection{KI für die Materialentwicklung}
+\cite{kreutzer2019kunstliche}
+
+
+
+
+
+\section{Materials Datenbanken \& Datenquellen} %(ich werde diese Kapitel eher in Evaluierung einfügen - hier ist das unnötig)
+
+Zur Validierung der von KI generierten Materialeigenschaften werden offene und frei zugängliche Materialdatenbanken verwendet. Diese dienen als Referenzdatenbasis, um die Qualität und Aussagekraft der KI‑basierten Vorhersagen zu bewerten. Zu den genutzten Datenquellen zählen unter anderem:
+
+\begin{itemize}
+	\item \textbf{Materials Project}:  
+	Die modernisierte Web‑Plattform des Materials Project ermöglicht die Exploration, Analyse und den Vergleich rechnerisch bestimmter Materialeigenschaften. Sie stellt Forschenden und Ingenieuren Zugriff auf eine umfangreiche und kontinuierlich aktualisierte Datenbasis zu anorganischen Materialien, Molekülen sowie deren physikalischen und chemischen Eigenschaften bereit \cite{materials_project_nextgen_2026}.
+	
+	\item \textbf{Nachhaltigkeits‑ und LCA‑Datenbanken}:  
+	Eine Sammlung von Daten, Werkzeugen und Fachpublikationen zur quantitativen Bewertung von Nachhaltigkeit. Dazu zählen unter anderem IDEMAT‑LCA‑Datenbanken, Eco‑costs‑Methodiken, Social‑LCA‑Werkzeuge sowie praxisorientierte Leitfäden zur Ökobilanzierung, zum True‑Cost‑Accounting und zu CSRD‑Anwendungen \cite{ecocostsvalue_data_tools_books_2026}.
+	
+	\item \textbf{NIST Materials Data Repository}:  
+	Eine offene Forschungsdatenplattform zur Speicherung, zum Austausch und zur Wiederverwendung von Materialdaten. Das Repository unterstützt die Ziele der Materials Genome Initiative (MGI) durch strukturierte Metadaten, community‑basierte Datensammlungen sowie Programmierschnittstellen (APIs), um Auffindbarkeit, Vergleichbarkeit und Nachnutzung von Materialforschungsdaten zu ermöglichen \cite{nist_materials_data_repository_2026}.
+\end{itemize}
+
+Die in diesen Datenbanken enthaltenen Materialeigenschaften werden mit den von Citrine generierten Vorhersagen verglichen. Die Bewertung der Vorhersagequalität erfolgt anhand etablierter Fehlermetriken wie dem mittleren absoluten Fehler (MAE), dem quadratischen Mittelwertfehler (RMSE) sowie dem Bestimmtheitsmaß \(R^2\).
+
+\subsection{Physik‑informiertes Machine Learning in der Materialwissenschaft}
+
+%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!DFT erklären!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+

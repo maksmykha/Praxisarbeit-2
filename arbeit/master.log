@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2026.1.21)  16 FEB 2026 15:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2026.1.21)  12 MAR 2026 17:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,7 +891,7 @@ Class scrreprt Warning: Usage of package `tocloft' together
 (scrreprt)              `part', `section', `subsection',
 (scrreprt)              `subsubsection', `paragraph' and `subparagraph'.
 (scrreprt)              Nevertheless, using requested
-(scrreprt)              package `tocloft' on input line 85.
+(scrreprt)              package `tocloft' on input line 89.
 
 (C:\Users\mamykhai\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -935,6 +935,9 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 ) (C:\Users\mamykhai\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
 )
+(C:\Users\mamykhai\AppData\Local\Programs\MiKTeX\tex/latex/arial\uarial.sty
+Package: uarial 2006/03/21 1.0 (WaS)
+)
 \@indexfile=\write4
 \openout4 = `master.idx'.
 
@@ -948,7 +951,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 \usepackage
+l.16 \usepackage
                 {csquotes} 	% correct quoting using \enquote{}
 The package babel has already been loaded with options:
   [english]
@@ -988,7 +991,7 @@ Class scrreprt Info: loading recommended package `bookmark'.
 (scrreprt)           `bookmarkpackage=false' before \begin{document} and
 (scrreprt)           you can avoid this message adding:
 (scrreprt)             \usepackage{bookmark}
-(scrreprt)           before \begin{document} on input line 154.
+(scrreprt)           before \begin{document} on input line 159.
 
 (C:\Users\mamykhai\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.st
 y
@@ -999,38 +1002,46 @@ def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
 )
 \BKM@id=\count467
-)) (master.aux)
+))
+LaTeX Font Info:    Trying to load font information for T1+ua1 on input line 15
+9.
+ (C:\Users\mamykhai\AppData\Local\Programs\MiKTeX\tex/latex/arial\t1ua1.fd
+File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
+)
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 159.
+ (master.aux)
 \openout1 = `master.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 154.
-LaTeX Font Info:    ... okay on input line 154.
-Package scrbase Info: activating english \abstractname on input line 154.
-Package scrbase Info: activating english \partname on input line 154.
-Package scrbase Info: activating english \chaptername on input line 154.
-Package scrbase Info: activating english \appendixname on input line 154.
-Package scrbase Info: activating english \figurename on input line 154.
-Package scrbase Info: activating english \tablename on input line 154.
-Package scrbase Info: activating english \contentsname on input line 154.
-Package scrbase Info: activating english \listfigurename on input line 154.
-Package scrbase Info: activating english \listtablename on input line 154.
-Package scrbase Info: activating english \bibname on input line 154.
-Package scrbase Info: activating english \indexname on input line 154.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
+LaTeX Font Info:    ... okay on input line 159.
+Package scrbase Info: activating english \abstractname on input line 159.
+Package scrbase Info: activating english \partname on input line 159.
+Package scrbase Info: activating english \chaptername on input line 159.
+Package scrbase Info: activating english \appendixname on input line 159.
+Package scrbase Info: activating english \figurename on input line 159.
+Package scrbase Info: activating english \tablename on input line 159.
+Package scrbase Info: activating english \contentsname on input line 159.
+Package scrbase Info: activating english \listfigurename on input line 159.
+Package scrbase Info: activating english \listtablename on input line 159.
+Package scrbase Info: activating english \bibname on input line 159.
+Package scrbase Info: activating english \indexname on input line 159.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1044,13 +1055,12 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `master.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'master.bbl' not found.
-
-No file master.bbl.
-Package biblatex Info: Reference section=0 on input line 154.
-Package biblatex Info: Reference segment=0 on input line 154.
+Package biblatex Info: ... file 'master.bbl' found.
+ (master.bbl)
+Package biblatex Info: Reference section=0 on input line 159.
+Package biblatex Info: Reference segment=0 on input line 159.
 \c@lstlisting=\count468
-Package tocbasic Info: setting babel extension for `lol' on input line 154.
+Package tocbasic Info: setting babel extension for `lol' on input line 159.
 \scr@dte@lstlisting@maxnumwidth=\skip131
 
 (C:\Users\mamykhai\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
@@ -1090,7 +1100,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 154.
+Package hyperref Info: Link coloring OFF on input line 159.
 
 (C:\Users\mamykhai\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\t
 ranslations-basic-dictionary-english.trsl
@@ -1098,7 +1108,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 154.
+or `english'. on input line 159.
  (titlepage.tex
 <img/firmenlogo.png, id=3, 5018.75pt x 1640.1275pt>
 File: img/firmenlogo.png Graphic file (type png)
@@ -1116,8 +1126,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 7.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 7.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 13.67995pt on input line 11.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 11.39996pt on input line 12.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 13.67995pt on input line 12.
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 16.41594pt on input line 13.
 
-Overfull \hbox (7.75438pt too wide) in paragraph at lines 17--33
+Overfull \hbox (11.12848pt too wide) in paragraph at lines 17--33
  []$[]$ 
  []
 
@@ -1126,9 +1144,19 @@ Overfull \hbox (7.75438pt too wide) in paragraph at lines 17--33
 [1
 
 
-{C:/Users/mamykhai/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/fir
-menlogo.png> <./img/logo.jpg>]) (ewerkl.tex)
+{C:/Users/mamykhai/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/m
+amykhai/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./img/firme
+nlogo.png> <./img/logo.jpg>]) (ewerkl.tex
+LaTeX Font Info:    Font shape `T1/ua1/b/n' will be
+(Font)              scaled to size 23.63593pt on input line 3.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 9.
+)
 
+LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <12> not available
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 169.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 11.39996pt on input line 169.
 [1
 
 
@@ -1143,7 +1171,10 @@ menlogo.png> <./img/logo.jpg>]) (ewerkl.tex)
 
 
 
-] (master.toc
+]
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 23.63593pt on input line 195.
+ (master.toc
 Package tocbasic Info: Using my definition of `\numberline' on input line 2.
 Package tocbasic Info: Using my definition of `\numberline' on input line 3.
 Package tocbasic Info: Using my definition of `\numberline' on input line 4.
@@ -1152,26 +1183,46 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 6.
 Package tocbasic Info: Using my definition of `\numberline' on input line 7.
 Package tocbasic Info: Using my definition of `\numberline' on input line 8.
 Package tocbasic Info: Using my definition of `\numberline' on input line 9.
-Package tocbasic Info: Using my definition of `\numberline' on input line 21.
-Package tocbasic Info: Using my definition of `\numberline' on input line 24.
-Package tocbasic Info: Using my definition of `\numberline' on input line 27.
-Package tocbasic Info: Using my definition of `\numberline' on input line 28.
-Package tocbasic Info: Using my definition of `\numberline' on input line 31.
+Package tocbasic Info: Using my definition of `\numberline' on input line 40.
+
+
+[4
+
+]
+Package tocbasic Info: Using my definition of `\numberline' on input line 53.
+Package tocbasic Info: Using my definition of `\numberline' on input line 57.
+Package tocbasic Info: Using my definition of `\numberline' on input line 58.
+Package tocbasic Info: Using my definition of `\numberline' on input line 60.
+Package tocbasic Info: Using my definition of `\numberline' on input line 63.
+Package tocbasic Info: Using my definition of `\numberline' on input line 66.
+Package tocbasic Info: Using my definition of `\numberline' on input line 67.
+Package tocbasic Info: Using my definition of `\numberline' on input line 70.
+Package tocbasic Info: Using my definition of `\numberline' on input line 71.
 )
 \tf@toc=\write5
 \openout5 = `master.toc'.
 
 
 
-[4
+[5] (master.lof
+Overfull \hbox (11.97835pt too wide) in paragraph at lines 6--6
+ [][] [][]\T1/ua1/m/n/12 Einordnung von Kün-stlicher In-tel-li-genz, Maschinell
+em Ler-nen und Deep Learn- 
+ []
 
-] (master.lof)
+
+Overfull \hbox (15.62181pt too wide) in paragraph at lines 8--8
+ [][] [][]\T1/ua1/m/n/12 Zentrale Schritte der Daten-vor-bere-itung im Data-Min
+ing-Prozess(andere übeer- 
+ []
+
+)
 \tf@lof=\write6
 \openout6 = `master.lof'.
 
 
 
-[5
+[6
 
 ] (master.lot)
 \tf@lot=\write7
@@ -1179,17 +1230,17 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 31.
 
 
 
-[6
+[7
 
 ] (master.lol
-Package tocbasic Info: Using my definition of `\numberline' on input line 6.
+Package tocbasic Info: Using my definition of `\numberline' on input line 10.
 )
 \tf@lol=\write8
 \openout8 = `master.lol'.
 
 
 
-[7
+[8
 
 
 ]
@@ -1202,7 +1253,7 @@ Class scrreprt Warning: Usage of \float@listhead detected!
 (scrreprt)              has been replaced by several more flexible
 (scrreprt)              features of package `tocbasic`.
 (scrreprt)              Implementation of \float@listhead will
-(scrreprt)              be removed from KOMA-Script soon on input line 210.
+(scrreprt)              be removed from KOMA-Script soon on input line 215.
 
 chapter without number
 
@@ -1225,65 +1276,48 @@ Class scrreprt Warning: \float@addtolists detected!
 
 
 
-[8
+[9
 
 
 ] (acronyms.tex
 
-LaTeX Warning: Hyper reference `acro:ad' on page ix undefined on input line 7.
-
-
-LaTeX Warning: Hyper reference `acro:ad' on page ix undefined on input line 7.
-
-
-LaTeX Warning: Hyper reference `acro:BMBF' on page ix undefined on input line 8
-.
-
-
-LaTeX Warning: Hyper reference `acro:BMBF' on page ix undefined on input line 8
-.
-
-
-LaTeX Warning: Hyper reference `acro:DHBW' on page ix undefined on input line 9
-.
-
-
-LaTeX Warning: Hyper reference `acro:DHBW' on page ix undefined on input line 9
-.
-
-
-LaTeX Warning: Hyper reference `acro:ecu' on page ix undefined on input line 10
-.
-
-
-LaTeX Warning: Hyper reference `acro:ecu' on page ix undefined on input line 10
-.
-
-
-LaTeX Warning: Hyper reference `acro:eu' on page ix undefined on input line 11.
+LaTeX Warning: Hyper reference `acro:DHBW' on page x undefined on input line 7.
 
 
 
-LaTeX Warning: Hyper reference `acro:eu' on page ix undefined on input line 11.
+LaTeX Warning: Hyper reference `acro:DHBW' on page x undefined on input line 7.
 
 
 
-LaTeX Warning: Hyper reference `acro:RDBMS' on page ix undefined on input line 
-12.
+LaTeX Warning: Hyper reference `acro:PLM' on page x undefined on input line 8.
 
 
-LaTeX Warning: Hyper reference `acro:RDBMS' on page ix undefined on input line 
-12.
+LaTeX Warning: Hyper reference `acro:PLM' on page x undefined on input line 8.
 
 )
 
-[9
-
-
-
-] (abstract.tex)
-
 [10
+
+
+
+] (abstract.tex
+LaTeX Font Info:    Trying to load font information for TS1+ua1 on input line 1
+0.
+
+(C:\Users\mamykhai\AppData\Local\Programs\MiKTeX\tex/latex/arial\ts1ua1.fd
+File: ts1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for TS1/ua1.
+)
+LaTeX Font Info:    Font shape `TS1/ua1/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 10.
+
+Overfull \hbox (2.14796pt too wide) in paragraph at lines 10--11
+[]\T1/ua1/m/n/12 Wie genau sagen KI[]basierte Mod-elle ma-te-ri-al-wis-senschaf
+tliche Eigen-schaften neuer
+ []
+
+)
+
+[11
 
 
 ] (introduction.tex
@@ -1296,72 +1330,507 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.2 \chapter
-            {Grundlage} [1
+            {Theoretische und technische Grundlagen} [1
 
 
 
 ]
 chapter 2.
 
-LaTeX Warning: Citation 'stark2022product' on page 2 undefined on input line 6.
+Overfull \hbox (6.38031pt too wide) in paragraph at lines 5--11
+\T1/ua1/m/n/12 gleitung der Pro-dukte von der frühen En-twick-lungsphase über W
+achstums- und Reifephasen
+ []
 
 
-
-LaTeX Warning: Citation 'stark2011product' on page 2 undefined on input line 9.
-
-
-<img/Drawing 17.png, id=137, 778.8297pt x 750.1626pt>
-File: img/Drawing 17.png Graphic file (type png)
-<use img/Drawing 17.png>
-Package pdftex.def Info: img/Drawing 17.png  used on input line 13.
-(pdftex.def)             Requested size: 271.44203pt x 261.45053pt.
-
-LaTeX Warning: Citation 'corallo2013defining' on page 2 undefined on input line
- 14.
-
-
-LaTeX Warning: Citation 'corallo2013defining' on page 2 undefined on input line
- 14.
+Overfull \hbox (5.21062pt too wide) in paragraph at lines 12--14
+[]\T1/ua1/m/n/12 In einer zunehmend datengetriebe-nen Welt, in der In-for-ma-ti
+o-nen als strate-gis-che Ressource
+ []
 
 
 
 [2
 
-]) (chapter2.tex
+]
+<img/Drawing 17.png, id=220, 778.8297pt x 750.1626pt>
+File: img/Drawing 17.png Graphic file (type png)
+<use img/Drawing 17.png>
+Package pdftex.def Info: img/Drawing 17.png  used on input line 24.
+(pdftex.def)             Requested size: 316.67778pt x 305.01607pt.
 
-[3 <./img/Drawing 17.png>]
 
-[4]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[3]
+Overfull \hbox (0.44942pt too wide) in paragraph at lines 37--40
+\T1/ua1/m/n/12 Fortschritt sowie den Er-folg zukün-ftiger PLM[]Aktivitäten sys-
+tem-a-tisch zu überwachen
+ []
+
+
+
+[4 <./img/Drawing 17.png>]
+Overfull \hbox (14.22809pt too wide) in paragraph at lines 40--41
+\T1/ua1/m/n/12 man-age all these ac-tiv-i-ties. The ef-fec-tive man-age-ment of
+ the or-ga-ni-za-tion an-dresources
+ []
+
+
+Overfull \hbox (0.84454pt too wide) in paragraph at lines 45--46
+\T1/ua1/m/n/12 ierungsin-for-ma-tio-nen, tech-nis-che Spez-i-fika-tio-nen sowie
+ Freigabe- und Än-derungsprozesse
+ []
+
+
+Overfull \hbox (4.12993pt too wide) in paragraph at lines 47--48
+\T1/ua1/m/n/12 waresys-teme. Damit bildet PDM die Grund-lage für ver-schiedene 
+An-wen-dun-gen und fungiert
+ []
+
+
+
+[5]
+Overfull \hbox (7.76433pt too wide) in paragraph at lines 72--73
+\T1/ua1/m/n/12 Team-cen-ter ist ein um-fassendes Product-Lifecycle-Management-S
+ystem, das den gesamten
+ []
+
+
+Overfull \hbox (1.35208pt too wide) in paragraph at lines 82--83
+\T1/ua1/m/n/12 Die Kün-stliche In-tel-li-genz (KI) gilt als eines der äl-testen
+ und zu-gle-ich bre-itesten Forschungs-
+ []
+
+
+
+[6]
+Overfull \hbox (11.85995pt too wide) in paragraph at lines 92--94
+\T1/ua1/m/n/12 er-he-blich zugenom-men. Diese En-twick-lung wird nicht nur von 
+In-for-matik-ern und KI-Forschern
+ []
+
+<img/Euler Circles(ML).png, id=260, 402.50375pt x 402.50375pt>
+File: img/Euler Circles(ML).png Graphic file (type png)
+<use img/Euler Circles(ML).png>
+Package pdftex.def Info: img/Euler Circles(ML).png  used on input line 97.
+(pdftex.def)             Requested size: 316.67778pt x 316.67857pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<img/Lernparadigmen.png, id=267, 1233.60875pt x 603.25375pt>
+File: img/Lernparadigmen.png Graphic file (type png)
+<use img/Lernparadigmen.png>
+Package pdftex.def Info: img/Lernparadigmen.png  used on input line 113.
+(pdftex.def)             Requested size: 452.3988pt x 221.23055pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[7]
+Overfull \hbox (14.33067pt too wide) in paragraph at lines 134--137
+\T1/ua1/m/n/12 Un-su-per-vised Learn-ing eignet sich ins-beson-dere für ex-plo-
+rative Anal-y-sen, Vorver-ar-beitungss-
+ []
+
+
+
+[8 <./img/Euler Circles(ML).png>]
+
+[9 <./img/Lernparadigmen.png>]
+Overfull \hbox (5.04579pt too wide) in paragraph at lines 181--182
+\T1/ua1/m/n/12 Der Mean Ab-so-lute Er-ror (MAE) misst den durch-schnit-tlichen 
+ab-so-luten Vorher-sage-fehler: 
+ []
+
+
+Overfull \hbox (3.59804pt too wide) in paragraph at lines 188--189
+\T1/ua1/m/n/12 Der Root Mean Squared Er-ror (RMSE) ist die Wurzel des mit-tlere
+n quadratis-chen Fehlers: 
+ []
+
+
+
+[10]
+Overfull \hbox (1.83171pt too wide) in paragraph at lines 203--204
+\T1/ua1/m/n/12 quan-ti-ta-tiven Be-w-er-tung der KI[]basierten Vorher-sagen ein
+ge-setzt und im Evaluierungskapi-
+ []
+
+
+Overfull \hbox (8.89963pt too wide) in paragraph at lines 211--212
+\T1/ua1/m/n/12 Entschei-dungslogik datengetriebener Mod-elle er-möglicht und so
+mit Ver-trauen in KI[]gestützte
+ []
+
+
+Overfull \hbox (9.17789pt too wide) in paragraph at lines 213--214
+[]\T1/ua1/m/n/12 Gerade im Bere-ich der nach-halti-gen Material[] und Prozessen
+-twick-lung, etwa bei der Auswahl
+ []
+
+
+Overfull \hbox (18.74925pt too wide) in paragraph at lines 213--214
+\T1/ua1/m/n/12 von Werk-stof-fen oder der Op-ti-mierung en-ergiein-ten-siver Fe
+r-ti-gungss-chritte wie Beschichtungs[]
+ []
+
+
+Overfull \hbox (8.24768pt too wide) in paragraph at lines 213--214
+\T1/ua1/m/n/12 men-hänge zwis-chen Ma-te-ri-aleigen-schaften, Prozess-pa-ram-e-
+tern, Kosten und Umweltwirkun-
+ []
+
+
+Overfull \hbox (17.27576pt too wide) in paragraph at lines 215--216
+\T1/ua1/m/n/12 (LIME) er-möglichen es beispiel-sweise, aufzuzeigen, welche Ma-t
+e-ri-al-pa-ram-e-ter oder Prozesss-
+ []
+
+
+
+[11]
+Overfull \hbox (53.13925pt too wide) in paragraph at lines 218--220
+[]\T1/ua1/b/n/12 SHapley Ad-di-tive ex-Pla-na-tions (SHAP): \T1/ua1/m/n/12 SHAP
+ basiert auf spielthe-o-retis-chen Shapley[]Werten
+ []
+
+
+
+[12]
+Overfull \hbox (9.27141pt too wide) in paragraph at lines 244--246
+\T1/ua1/m/n/12 Labor-berichte, Ver-such-spro-tokolle, wis-senschaftliche Pub-li
+ka-tio-nen, PDF-Dokumente, Bilder
+ []
+
+
+Overfull \hbox (42.60703pt too wide) in paragraph at lines 248--250
+\T1/ua1/m/n/12 Umfeld sind XML- oder JSON-basierte Aus-tauschfor-mate, Ma-te-ri
+-al-daten-blät-ter, Meta-datenbeschrei-
+ []
+
+
+
+[13]
+<img/Databereinigung.png, id=376, 573.14125pt x 663.47874pt>
+File: img/Databereinigung.png Graphic file (type png)
+<use img/Databereinigung.png>
+Package pdftex.def Info: img/Databereinigung.png  used on input line 269.
+(pdftex.def)             Requested size: 316.67778pt x 366.59499pt.
+
+Overfull \hbox (8.84549pt too wide) in paragraph at lines 276--280
+[]\T1/ua1/b/n/12 Datenbereinigung (Data Clean-ing)\T1/ua1/m/n/12 : Ro-h-daten e
+n-thal-ten häu-fig un-voll-ständige Daten-
+ []
+
+
+
+[14 <./img/Databereinigung.png>]
+Overfull \hbox (27.4263pt too wide) in paragraph at lines 281--284
+\T1/ua1/m/n/12 beitung wer-den Daten umge-wan-delt oder zusam-menge-führt, um d
+en Data[]Mining[]Prozess
+ []
+
+
+Overfull \hbox (16.40935pt too wide) in paragraph at lines 285--288
+\T1/ua1/m/n/12 von Du-p-likaten sowie die Au-flö-sung wider-sprüch-licher Daten
+-werte aus un-ter-schiedlichen
+ []
+
+
+Overfull \hbox (0.88255pt too wide) in paragraph at lines 289--293
+\T1/ua1/m/n/12 Wer-te-bere-iche einzel-ner At-tribute kön-nen die Ergeb-nisse v
+on Da-te-n-anal-y-sen maÿge-
+ []
+
+
+
+[15]
+Overfull \hbox (4.22725pt too wide) in paragraph at lines 297--299
+\T1/ua1/m/n/12 basierte Ver-fahren angewen-det wer-den, um deren Ein-fluss auf 
+nach-fol-gende Analyse[]
+ []
+
+
+
+[16]) (Materialentwicklung im industriellen Kontext.tex
+
+[17]
 chapter 3.
-) (conclusion.tex
 
-[5
+Overfull \hbox (105.73643pt too wide) in paragraph at lines 12--13
+\T1/ua1/m/n/12 einem para-doxen Punkt: Ein-er-seits ex-istiert ein um-fan-gre-i
+ches Wis-sen über Struktur[]Eigenschafts[]Beziehungen
+ []
+
+
+Overfull \hbox (8.40715pt too wide) in paragraph at lines 12--13
+\T1/ua1/m/n/12 An-wen-dun-gen in der En-ergiespe-icherung, Katal-yse, Quan-ten-
+tech-nolo-gien oder der Biomedi-
+ []
+
+
+Overfull \hbox (21.05666pt too wide) in paragraph at lines 18--21
+\T1/ua1/m/n/12 Die rech-n-ergestützte Ma-te-ri-alen-twick-lung zielt da-rauf ab
+, ex-per-i-mentelle En-twick-lungsprozesse
+ []
+
+
+
+[18
 
 ]
+Overfull \hbox (9.03267pt too wide) in paragraph at lines 27--28
+\T1/ua1/m/n/12 und stellt da-her ein zen-trales An-wen-dungs-feld mod-erner Ma-
+te-ri-alen-twick-lung dar. Fahrzeuge
+ []
+
+
+Overfull \hbox (23.22493pt too wide) in paragraph at lines 30--31
+\T1/ua1/m/n/12 ter-schiedlicher Ma-te-ri-alien, darunter Stahl, Alu-minium, Mag
+-ne-sium, Kun-st-stoffe sowie Faserver-
+ []
+
+
+Overfull \hbox (4.57614pt too wide) in paragraph at lines 32--33
+\T1/ua1/m/n/12 elek-trische Leitun-gen und Verklei-dungs-ma-te-ri-alien, machen
+ etwa 13,5% aus. [[]55[]](FOTO) 
+ []
+
+
+
+[19]
+<img/Metalls.png, id=439, 734.745pt x 493.626pt>
+File: img/Metalls.png Graphic file (type png)
+<use img/Metalls.png>
+Package pdftex.def Info: img/Metalls.png  used on input line 36.
+(pdftex.def)             Requested size: 497.64143pt x 334.33559pt.
+
+Overfull \hbox (45.24263pt too wide) in paragraph at lines 36--37
+ [][] 
+ []
+
+
+Overfull \hbox (2.86536pt too wide) in paragraph at lines 43--45
+\T1/ua1/m/n/12 klas-sis-chen Meth-o-den nur schwer erkennbar sind. Auf dieser G
+rund-lage kön-nen KI[]Modelle
+ []
+
+
+
+[20 <./img/Metalls.png>]
+Overfull \hbox (2.36525pt too wide) in paragraph at lines 53--54
+\T1/ua1/m/n/12 sichtlich Gewicht, Fes-tigkeit und Ko-r-ro-sions-beständigkeit b
+i-eten, sind sie häu-fig mit höheren
+ []
+
+
+Overfull \hbox (14.52747pt too wide) in paragraph at lines 53--54
+\T1/ua1/m/n/12 Material[] und Prozesskosten ver-bun-den. KI[]gestützte Anal-y-s
+en in-ner-halb eines PLM[]Systems
+ []
+
+
+Overfull \hbox (9.78513pt too wide) in paragraph at lines 55--56
+\T1/ua1/m/n/12 mo-bil-bau. Die Kom-bi-na-tion aus PLM[]basiertem Ma-te-ri-al-da
+ten-man-age-ment und KI[]gestützter
+ []
+
+
+Overfull \hbox (1.8021pt too wide) in paragraph at lines 55--56
+\T1/ua1/m/n/12 Entschei-dung-sun-ter-stützung eröffnet je-doch neue Möglichkeit
+en, Ma-te-ri-alauswahl-prozesse
+ []
+
+
+LaTeX Warning: Citation 'sustanibility' on page 21 undefined on input line 60.
+
+
+Overfull \hbox (0.97762pt too wide) in paragraph at lines 59--61
+\T1/ua1/m/n/12 Lack-ier-prozesse im Au-to-mo-bil-bau. Diese Prozesse sind en-er
+giein-ten-siv, er-fordern mehrere
+ []
+
+
+Overfull \hbox (41.90704pt too wide) in paragraph at lines 59--61
+\T1/ua1/m/n/12 blichen Ein-fluss auf nachge-lagerte Fer-ti-gungsprozesse, Koste
+n-struk-turen und Nach-haltigkeitskenn-
+ []
+
+
+Overfull \hbox (7.50894pt too wide) in paragraph at lines 59--61
+\T1/ua1/m/n/12 dem sie poten-zielle Ma-te-ri-alal-ter-na-tiven frühzeitig be-w-
+ertet und energie- sowie ressourcenin-
+ []
+
+
+Overfull \hbox (26.77391pt too wide) in paragraph at lines 71--72
+\T1/ua1/m/n/12 Zur Va-li-dierung der von KI gener-ierten Ma-te-ri-aleigen-schaf
+ten wer-den of-fene und frei zugängliche
+ []
+
+
+
+[21]
+Overfull \hbox (32.01369pt too wide) in paragraph at lines 77--79
+\T1/ua1/m/n/12 unter an-derem IDEMAT[]LCA[]Datenbanken, Eco[]costs[]Methodiken,
+ Social[]LCA[]Werkzeuge
+ []
+
+
+Overfull \hbox (1.73839pt too wide) in paragraph at lines 80--82
+\T1/ua1/m/n/12 icherung, zum Aus-tausch und zur Wiederver-wen-dung von Ma-te-ri
+-al-daten. Das Repos-
+ []
+
+
+Overfull \hbox (2.6701pt too wide) in paragraph at lines 80--82
+\T1/ua1/m/n/12 (APIs), um Auffind-barkeit, Ver-gle-ich-barkeit und Nach-nutzung
+ von Ma-te-ri-al-forschungs-
+ []
+
+) (Nachhaltigkeit in der Materialentwicklung.tex
+
+[22]
 chapter 4.
+
+Overfull \hbox (24.08049pt too wide) in paragraph at lines 13--14
+\T1/ua1/m/n/12 Nach-haltigkeit verknüpfen und häu-fig ge-trennt voneinan-der be
+-tra-chten. Diese un-ter-schiedlichen
+ []
+
+
+Overfull \hbox (21.43962pt too wide) in paragraph at lines 16--17
+\T1/ua1/m/n/12 sowie durch gesellschaftliche Er-wartun-gen wer-den Un-ternehmen
+ zunehmend dazu verpflichtet,
+ []
+
+
+
+[23
+
+]) (Methodik der KI-gestÃ¼tzten Materialanalyse.tex
+
+[24]
+chapter 5.
+) (Evaluierung des KIâ€‘Einsatzes.tex
+
+[25
+
+]
+chapter 6.
+) (chapter2.tex
+
+[26
+
+]
+chapter 7.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 10.40245pt on input line 11.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 5.69998pt on input line 11.
+) (conclusion.tex
+
+[27
+
+]
+chapter 8.
 ) (appendix1.tex
 
-[6
+[28
 
 ]
 chapter A.
 )
 
-[7
+[29
 
 ] (appendix2.tex
 
-[8]
+[30]
 chapter B.
 )
 
-LaTeX Warning: Empty bibliography on input line 266.
-
-
-
-[9
+[31
 
 ]
+chapter without number
+
+Overfull \hbox (1.2233pt too wide) in paragraph at lines 276--276
+\T1/ua1/m/it/12 ment (vol-ume 1) 21st Cen-tury paradigm for prod-uct re-al-i-sa
+-tion\T1/ua1/m/n/12 . Springer, 2022, pp. 1^^U
+ []
+
+
+
+[32
+
+]
+Overfull \hbox (11.92253pt too wide) in paragraph at lines 276--276
+[]\T1/ua1/m/n/12 Yuxi Li. ^^P  Deep re-in-force-ment learn-ing: An overview^^Q.
+ In: \T1/ua1/m/it/12 arXiv preprint arXiv:1701.07274
+ []
+
+
+Overfull \hbox (4.4891pt too wide) in paragraph at lines 276--276
+[]\T1/ua1/m/n/12 Muhammad Rehman Za-far and Naimul Khan. ^^P  De-ter-min-is-tic
+ lo-cal in-ter-pretable model-
+ []
+
+
+
+[33]
+Overfull \hbox (9.60078pt too wide) in paragraph at lines 276--276
+[]\T1/ua1/m/n/12 SS Baskar, L Arock-iam, and S Charles. ^^P  A sys-tem-atic ap-
+proach on data pre-processing
+ []
+
+
+Overfull \hbox (14.96819pt too wide) in paragraph at lines 276--276
+[]\T1/ua1/m/n/12 X-D Xi-ang et al. ^^P  A com-bi-na-to-rial ap-proach to ma-te-
+ri-als dis-cov-ery^^Q. In: \T1/ua1/m/it/12 Sci-ence \T1/ua1/m/n/12 268.5218
+ []
+
+
+
+[34]
+Overfull \hbox (1.40797pt too wide) in paragraph at lines 276--276
+[]\T1/ua1/m/n/12 Tetiana Pavlivna Hov-orun et al. ^^P  Mod-ern ma-te-ri-als for
+ au-to-mo-tive in-dus-try^^Q. In: (2017). 
+ []
+
+
+Overfull \hbox (0.95502pt too wide) in paragraph at lines 276--276
+[]\T1/ua1/m/n/12 Sarah Mandy Mun-sch et al. \T1/ua1/m/it/12 An-wen-dung von KI 
+für die Ma-te-ri-alop-ti-mierung im Bauwe-
+ []
+
+
+Overfull \hbox (24.59975pt too wide) in paragraph at lines 276--276
+\T1/ua1/m/it/12 LCA\T1/ua1/m/n/12 . Sus-tain-abil-ity Im-pact Met-rics (TU Delf
+t). 2026. URL: []$\T1/cmtt/m/n/12 https : / / www . ecocostsvalue .
+ []
+
+
+Overfull \hbox (10.96803pt too wide) in paragraph at lines 276--276
+\T1/ua1/m/n/12 hanced Us-abil-ity^^Q. In: \T1/ua1/m/it/12 In-ter-na-tional Jour
+-nal of Re-search and An-a-lyt-i-cal Re-views (IJRAR)
+ []
+
+
+
+[35]
+Overfull \hbox (5.07716pt too wide) in paragraph at lines 276--276
+[]\T1/ua1/m/n/12 Eugene Char-niak. \T1/ua1/m/it/12 In-tro-duc-tion to ar-ti-fi-
+cial in-tel-li-gence\T1/ua1/m/n/12 . Pear-son Ed-u-ca-tion In-dia, 1985. 
+ []
+
+
+
+[36]
 No file master.ind.
 (master.aux)
  ***********
@@ -1373,6 +1842,9 @@ L3 programming layer <2025-06-09>
 LaTeX Warning: There were undefined references.
 
 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                master
 (biblatex)                and rerun LaTeX afterwards.
@@ -1382,28 +1854,29 @@ Package logreq Info: Writing requests to 'master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29298 strings out of 468221
- 577339 string characters out of 5431439
- 1628889 words of memory out of 5000000
- 57412 multiletter control sequences out of 15000+600000
- 638696 words of font info for 62 fonts, out of 8000000 for 9000
+ 29947 strings out of 468221
+ 600582 string characters out of 5431439
+ 1640306 words of memory out of 5000000
+ 57862 multiletter control sequences out of 15000+600000
+ 688640 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,10903b,2997s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,10903b,3042s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\mamykhai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\e
 ctt1095.pk> <C:\Users\mamykhai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi450\ecss0800.pk> <C:\Users\mamykhai\AppData\Local\MiKTeX\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ectt1200.pk> <C:\Users\mamykhai\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecsi1200.pk> <C:\Users\mamykhai\AppData\Local\MiKTeX\
-fonts/pk/ljfour/jknappen/ec/dpi600\ecsx2488.pk> <C:\Users\mamykhai\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1200.pk> <C:\Users\mamykhai\App
-Data\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1200.pk> <C:\Users\mam
-ykhai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1728.pk> <C:\
-Users\mamykhai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1440
-.pk> <C:\Users\mamykhai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
-\ecss1440.pk>
-Output written on master.pdf (20 pages, 617638 bytes).
+/dpi600\ectt1200.pk><C:/Users/mamykhai/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmex10.pfb><C:/Users/mamykhai/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/mamykhai/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/mamykhai/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/mam
+ykhai/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Users/mamykhai/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Users/mamykhai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/arial
+/ua1b8a.pfb><C:/Users/mamykhai/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ar
+ial/ua1r8a.pfb><C:/Users/mamykhai/AppData/Local/Programs/MiKTeX/fonts/type1/urw
+/arial/ua1ri8a.pfb>
+Output written on master.pdf (48 pages, 984370 bytes).
 PDF statistics:
- 711 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 256 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 915 PDF objects out of 1000 (max. 8388607)
+ 240 named destinations out of 1000 (max. 500000)
+ 492 words of extra memory for PDF output out of 10000 (max. 10000000)
 

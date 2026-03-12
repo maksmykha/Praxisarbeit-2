@@ -1,31 +1,317 @@
 % !TEX root =  master.tex
-\chapter{Grundlage}
+\chapter{Theoretische und technische Grundlagen}
 Für eine nachvollziehbare Darstellung des Entwicklungsprozesses ist es erforderlich, die zugrunde liegenden Begriffe und Konzepte präzise und eindeutig zu definieren. Der folgende Abschnitt führt daher zentrale Fachtermini aus den Bereichen der PLM‑Systeme, der Materialwissenschaft sowie der Künstlichen Intelligenz (KI) systematisch ein. Ziel ist es, eine einheitliche begriffliche Grundlage zu schaffen, die sowohl die theoretische Einordnung der Anwendung unterstützt als auch die methodische Absicherung der anschließenden Analyse gewährleistet.
 \section{Einführung in das Product Lifecycle Management}
 Product Lifecycle Management (PLM) bezeichnet die unternehmerische Tätigkeit, Produkte eines Unternehmens über ihren gesamten Lebenszyklus hinweg effizient zu steuern und zu verwalten – von der ersten Produktidee über Entwicklung, Markteinführung und Nutzung bis hin zur Außerbetriebnahme und Entsorgung. Dabei umfasst PLM sowohl die Verwaltung einzelner Produkte als auch des gesamten Produktportfolios, also der Gesamtheit aller im Unternehmen angebotenen Produkte.
-Der Fokus liegt auf der Begleitung der Produkte von der frühen Entwicklungsphase über Wachstums- und Reifephasen bis zum Ende ihres Lebenszyklus. Ziel des PLM ist es, Produktumsätze zu steigern, produktbezogene Kosten zu reduzieren, den Wert des Produktportfolios zu maximieren und sowohl für Kunden als auch für Anteilseigner einen nachhaltigen Mehrwert aus bestehenden und zukünftigen Produkten zu schaffen. \cite{stark2022product}
+Der Fokus liegt auf der Begleitung der Produkte von der frühen Entwicklungsphase über Wachstums- und Reifephasen bis zum Ende ihres Lebenszyklus. Ziel des PLM ist es, Produktumsätze zu steigern, produktbezogene Kosten zu reduzieren, den Wert des Produktportfolios zu maximieren und sowohl für Kunden als auch für Anteilseigner einen nachhaltigen Mehrwert aus bestehenden und zukünftigen Produkten zu schaffen.  \cite{stark2022product}
+%\subsection{Chancen wachsender Märkte}
+%Die fortschreitende Globalisierung hat zu einer erheblichen Ausweitung der potenziellen Absatzmärkte geführt. Gleichzeitig wächst die Weltbevölkerung kontinuierlich und soll Prognosen zufolge von etwa 6,8 Milliarden Menschen im Jahr 2010 auf rund 9 Milliarden im Jahr 2050 ansteigen. Ein Großteil dieser potenziellen Kunden befindet sich jedoch in geografisch weit entfernten Regionen. Daraus ergibt sich die Notwendigkeit, Produkte über große Distanzen und lange Zeiträume hinweg effizient zu entwickeln, zu steuern und zu überwachen, was den Einsatz von Product‑Lifecycle‑Management‑Systemen (PLM) erforderlich macht.
+%Darüber hinaus führen demografische Veränderungen zur Entstehung neuer Märkte. Der starke Anstieg der älteren Bevölkerung erhöht die Nachfrage nach Gesundheitsprodukten und entsprechenden Dienstleistungen. Parallel dazu haben Übergewicht und Adipositas weltweit deutlich zugenommen, wodurch ein globaler Markt für Produkte und Dienstleistungen zur Gewichtsreduktion entstanden ist. Ein wachsendes Gesundheitsbewusstsein fördert zudem die Nachfrage nach pharmazeutischen Produkten sowie medizintechnischen Lösungen. Auch der Markt für Medikamente und Gesundheitsprodukte für Haustiere verzeichnet ein kontinuierliches Wachstum.
+%Weitere Marktpotenziale ergeben sich aus gesellschaftlichen und wirtschaftlichen Entwicklungen, wie sinkenden Arbeitszeiten in Industrieländern, steigendem verfügbarem Einkommen sowie der zunehmenden Bedeutung von Freizeit‑, Konsum‑ und Lifestyle‑Produkten, beispielsweise im Bereich der Kosmetik. %\cite{saaksvuori2005product}%
 
-\subsection{Porduct lifecycle Phases}
-Der Lebenszyklus eines Produkts lässt sich in fünf Phasen(\ref{PLM-Phases}) unterteilen, in denen sich das Produkt jeweils in einem unterschiedlichen Zustand befindet. In der Planen‑Phase existiert das Produkt zunächst ausschließlich als Idee. In der anschließenden Entwurfsphase werden diese Ideen in eine konkrete und detaillierte Beschreibung überführt. Mit Abschluss der "Bauen"-phase liegt das Produkt in seiner endgültigen Form vor, sodass es von Kunden genutzt werden kann, beispielsweise als serienreifes Fahrzeug. In der Nutzungs- und Servicephase befindet sich das Produkt beim Kunden und wird aktiv eingesetzt sowie gewartet. Schließlich erreicht das Produkt die End-of-Life‑Phase, in der es aus wirtschaftlichen oder technischen Gründen nicht mehr genutzt wird, vom Unternehmen außer Betrieb genommen und vom Kunden entsorgt oder recycelt wird. \cite{stark2011product}
+In einer zunehmend datengetriebenen Welt, in der Informationen als strategische Ressource einen hohen wirtschaftlichen Wert besitzen, gewinnt PLM zusätzlich an Bedeutung. Die systematische Erfassung, Verwaltung und Nutzung von Produkt‑ und Prozessdaten über den gesamten Lebenszyklus hinweg ermöglicht fundierte Entscheidungen, höhere Transparenz sowie eine bessere Steuerung komplexer globaler Wertschöpfungsketten.
+Insgesamt eröffnen diese Entwicklungen vielfältige Marktchancen, die durch den gezielten Einsatz von PLM‑Systemen effizient genutzt und nachhaltig gesteuert werden können. \cite{grieves2005product}
+\subsection{Konzept der PLM}
+Product Lifecycle Management (PLM) verfolgt das Ziel, sämtliche während aller Phasen des Produktlebenszyklus entstehenden Informationen nahtlos zu integrieren und organisationsweit verfügbar zu machen. Dabei richtet sich der Informationszugang nicht nur an interne Abteilungen, sondern schließt auch zentrale Lieferanten und Kunden mit ein.
+Durch den Einsatz von PLM können Hersteller die Zeit bis zur Markteinführung neuer Produktmodelle auf vielfältige Weise verkürzen. Insbesondere Produktentwickler profitieren von deutlich beschleunigten Prozessen zur Umsetzung und Freigabe von Konstruktionsänderungen entlang komplexer, unternehmensübergreifender Entwicklungsketten. Einkaufsabteilungen werden in die Lage versetzt, enger mit Lieferanten zusammenzuarbeiten und bestehende Bauteile effizient wiederzuverwenden.
+Gleichzeitig erhalten Führungskräfte eine ganzheitliche, übergeordnete Sicht auf alle relevanten Produktinformationen – von Details der Fertigungslinie über Ausfallraten einzelner Komponenten bis hin zu Garantie- und Felddaten. Diese umfassende Transparenz unterstützt fundierte strategische Entscheidungen und trägt maßgeblich zur Optimierung von Produktqualität, Kostenstruktur und Innovationsfähigkeit bei. \cite{sudarsan2005product}
+\subsection{Produktlebenszyklusphasen}
+Der Lebenszyklus eines Produkts lässt sich in fünf Phasen(Abb. \ref{PLM-Phases}) unterteilen, in denen sich das Produkt jeweils in einem unterschiedlichen Zustand befindet. In der Imaginationsphase existiert das Produkt zunächst ausschließlich als Idee. In der anschließenden Definitionsphase werden diese Ideen in eine konkrete und detaillierte Beschreibung überführt. Mit Abschluss der Realisierungsphase liegt das Produkt in seiner endgültigen Form vor, sodass es von Kunden genutzt werden kann, beispielsweise als serienreifes Fahrzeug. In der Nutzungs- und Servicephase befindet sich das Produkt beim Kunden und wird aktiv eingesetzt sowie gewartet. Schließlich erreicht das Produkt die End-of-Life‑Phase, in der es aus wirtschaftlichen oder technischen Gründen nicht mehr genutzt wird, vom Unternehmen außer Betrieb genommen und vom Kunden entsorgt oder recycelt wird. \cite{stark2011product}
+
 
 \begin{figure}[h] % h = here (hier), t = top, b = bottom
 	\centering
-	\includegraphics[width=0.6\textwidth]{\imagedir/Drawing 17.png} % Bildname ohne Endung
+	\includegraphics[width=0.7\textwidth]{\imagedir/Drawing 17.png} % Bildname ohne Endung
 	\caption{Abbildung der PLM-Phase \cite{corallo2013defining}}
 	\label{PLM-Phases}
 \end{figure}
 Um einen reibungslosen Ablauf sicherzustellen und den wirtschaftlichen Erfolg des Produkts zu gewährleisten, ist eine durchgängige Steuerung über alle Lebenszyklusphasen hinweg erforderlich. Dieses ganzheitliche Management wird häufig als Betreuung des Produkts „von der Wiege bis zur Bahre“ beschrieben.
-Die ersten drei Phasen – Imagination, Definition und Realisierung – bilden zusammen den Beginning‑ofLife (BOL) eines Produkts. Die Middle‑of‑Life‑Phase (MOL) umfasst Aktivitäten wie Nutzung, Support und Instandhaltung. Die End‑of‑Life‑Phase (EOL) schließt Prozesse wie Produktabkündigung, Entsorgung und Recycling ein.
-\section{Grundlage zu PLM-Systeme}
-Der Markt bietet eine Vielzahl unterschiedlicher PLM‑Systeme. Für die vorliegende Arbeit ist jedoch ausschließlich die 3DEXPERIENCE‑Plattform des Unternehmens Dassault Systèmes von besonderer Relevanz.
+Die ersten drei Phasen – Imagination, Definition und Realisierung – bilden zusammen den Beginning‑ofLife (BOL) eines Produkts. Die Middle‑of‑Life‑Phase (MOL) umfasst Aktivitäten wie Nutzung, Support und Instandhaltung. Die End‑of‑Life‑Phase (EOL) schließt Prozesse wie Produktabkündigung, Entsorgung und Recycling ein. \cite{li2015big}
 
-\subsection{3DExpirience-Plattform}
-\subsection{PLM/ERP/MES-Dreieck}
+Die durchgängige Betrachtung und Steuerung all dieser Phasen bildet die Grundlage für ein effektives Product Lifecycle Management eines Produktes.
 
-\subsection{Künstliche Intelligenz für PLM}
+\subsection{PLM Grid und organisatorische Einbettung}
+Der Zweck des Product Lifecycle Managements (PLM) wird im sogenannten PLM‑Grid veranschaulicht (Abb.). Das PLM‑Grid stellt den Anwendungsbereich von PLM als zweidimensionale Matrix dar, in der auf der horizontalen Achse die fünf Phasen des Produktlebenszyklus und auf der vertikalen Achse die zu berücksichtigenden Komponenten wie Daten, Anwendungen und Aktivitäten abgebildet sind.
 
-\section{Grundlage zu den KI-Technologien}
-\subsection{Einführung in die Machine Learning}
-\section{Materialentwicklung in der Automobilindustrie}
-\subsection{Machine Learning In der Materialentwicklung}
-\subsection{Nachhaltigkeit der Materialien}
+\begin{itemize}
+	\item \textbf{Objectives and KPI}: 
+	Die wesentlichen Ziele, die ein Unternehmen mit dem Einsatz von Product Lifecycle Management (PLM) verfolgt, bestehen in der ganzheitlichen Unterstützung und Durchführung aller PLM‑bezogenen Aktivitäten. Die PLM‑Ziele definieren und konkretisieren die Erwartungen an PLM in unterschiedlichen Bereichen, darunter insbesondere finanzielle Verbesserungen, die in der Regel höchste Priorität besitzen, Zeitersparnis, Qualitätssteigerung sowie die Weiterentwicklung und Optimierung von Geschäftsprozessen.
+	Zur Operationalisierung dieser Ziele werden Kennzahlen in Form von Key Performance Indicators (KPIs) eingesetzt. KPIs unterstützen Unternehmen dabei, messbare Zielvorgaben zu definieren und den Fortschritt sowie den Erfolg zukünftiger PLM‑Aktivitäten systematisch zu überwachen und zu bewerten.
+	\item \textbf{Organization and Management}: There are many resources to manage and a wide variety of resources in the PLM Environment.In addition to all this dimension, resources have complex interrelated relationships to manageproducts, components, and customers. Organizational structures, strategies and plans arenecessary to manage all these activities. The effective management of the organization andresources is so important that it can be called the necessity of PLM. No matter how good theresources from Human and Information Systems Applications are, all resources need to beorganized to achieve the PLM objectives. (Examples of organizations in the PLM environment:Departmental, flat, functional, hybrid, matrix, team, project etc.) 
+	
+\end{itemize}
+\subsection{Definition von Product Data Management (PDM)}
+
+Product Data Management (PDM) bezeichnet wörtlich die Verwaltung von Produktdaten und beschreibt einen Ansatz sowie unterstützende Systeme zur zentralen Organisation aller produktrelevanten Informationen während der Produktentwicklung und Konstruktion. Dazu zählen unter anderem CAD-Modelle, Stücklisten (Bill of Materials, BOM), Versionierungsinformationen, technische Spezifikationen sowie Freigabe- und Änderungsprozesse (ECR/ECO) \cite{philpotts1996introduction}.
+
+Im Kontext moderner Product-Lifecycle-Management-(PLM)-Ansätze wird PDM nicht mehr als isoliertes Softwaresystem verstanden, sondern als zentrale Informationsinfrastruktur. Ein PDM-System unterstützt Anwender bei der Durchführung ihrer Aufgaben durch die Integration unterschiedlicher funktionaler Modelle sowie durch die Anbindung weiterer Softwaresysteme. Damit bildet PDM die Grundlage für verschiedene Anwendungen und fungiert als Informationsmanagementsystem, in das zusätzliche Applikationen integriert werden können \cite{crnkovic2003implementing}.
+
+Diese zentrale Rolle ermöglicht eine konsistente Verwaltung produktbezogener Daten und Prozesse und unterstützt die Zusammenarbeit zwischen unterschiedlichen Abteilungen und Systemen über den gesamten Produktlebenszyklus hinweg \cite{liu2001review}.
+
+%%\subsubsection{Stücklisten- und Änderungsmanagement}
+%
+%PLM- bzw. PDM-Systeme verwalten Produktstrukturen in Form von Stücklisten (Bill of Materials, BOM) versioniert und konfigurationskontrolliert, beispielsweise als Engineering BOM (EBOM) oder Manufacturing BOM (MBOM) unter Berücksichtigung von Gültigkeiten und Effektivitäten. Dadurch bleiben Produktdefinitionen über Teams, Abteilungen und Systeme hinweg konsistent.
+
+%Änderungsprozesse werden über strukturierte Workflows für Engineering Change Requests (ECR) und Engineering Change Orders (ECO) gesteuert. Freigabemechanismen und durchgängige Rückverfolgbarkeit (Traceability) tragen dazu bei, Nacharbeit, Inkonsistenzen und daraus resultierende Kosten zu minimieren.
+
+\subsection{Integration und Interoperabilität (CAD/CAE/CAM, ERP/MES/SCM)}%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+%Der Nutzen von PLM entfaltet sich insbesondere durch die Integration entlang der gesamten Wertschöpfungskette. Produktdefinitionen werden in unterschiedlichen Systemdomänen wie Entwicklung, Fertigung und Betrieb benötigt und müssen über den gesamten Lebenszyklus hinweg konsistent gehalten werden.
+
+%Für die Interoperabilität zwischen heterogenen Systemen sind standardisierte Repräsentationen und Austauschmechanismen von zentraler Bedeutung. Der internationale Standard ISO~10303 (STEP) adressiert den systemübergreifenden Austausch von Produktinformationen über verschiedene Phasen des Produktlebenszyklus hinweg. In diesem Sinne kann PLM als technischer \emph{Backbone} verstanden werden, der Datenkonsistenz und durchgängige Prozesse in integrierten IT-Landschaften sicherstellt.
+
+\subsection{Digital Thread und Digital Twin im PLM-Kontext}%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Aktuelle PLM-Diskussionen verknüpfen PLM zunehmend mit den Konzepten des Digital Thread und des Digital Twin, um durchgängige Datenflüsse und Rückkopplungen zwischen physischem Produkt und digitaler Repräsentation über den gesamten Lebenszyklus zu ermöglichen \cite{stark2022product,grieves2016digital}.
+
+...
+%Grieves beschreibt den Digital Twin als ein Modell, das aus dem physischen Produkt, dem virtuellen Produkt sowie den Daten- und Informationsflüssen zwischen beiden besteht. Der Ursprung dieses Konzepts wird explizit im PLM-Kontext verortet \cite{grieves2016digital}. Dadurch wird PLM als Grundlage für sogenannte \emph{Closed-Loop-Lifecycle}-Szenarien sichtbar, in denen Betriebs- und Nutzungsdaten in Entwicklungs-, Fertigungs- und Serviceprozesse zurückgeführt werden können.
+
+\subsection{Beispielsystem: Siemens Teamcenter}
+
+Für diese Arbeit werden öffentlich verfügbare Daten des Mars-Rover-Projekts verwendet, die in einem PLM-System auf Basis von Siemens Teamcenter verwaltet sind. Siemens Teamcenter ist ein umfassendes Product-Lifecycle-Management-System, das den gesamten Produktentstehungsprozess von der frühen Konzeptphase über Entwicklung und Fertigung bis hin zu Betrieb und Wartung unterstützt.
+
+Teamcenter dient als zentrales Datenmanagementsystem (\emph{Single Source of Truth}) zur Verwaltung von Stücklisten, Änderungen, Workflows, Simulationen und produktbezogenen Metadaten. Durch die zentrale Datenhaltung und Prozessintegration unterstützt das System die Zusammenarbeit zwischen beteiligten Disziplinen, steigert die Produktivität und trägt zur Reduktion von Fehlern und Kosten bei. \cite{siemens_teamcenter_x_2026}
+
+
+
+%!!!Diese Arbeit geht es um nachhaltige Materialentwicklung und die meisten Materialien schon vor Prototyping auszusortieren....!!!!!!!!!!
+%\subsection{Künstliche Intelligenz für PLM}
+
+\section{Künstliche Intelligenz und Machine Learning} 
+Die Künstliche Intelligenz (KI) gilt als eines der ältesten und zugleich breitesten Forschungsfelder der Informatik. Sie befasst sich mit der Nachbildung kognitiver Fähigkeiten zur Lösung realweltlicher Probleme sowie mit der Entwicklung von Systemen, die lernen und denken können. Zur Abgrenzung von menschlicher Intelligenz wird in diesem Zusammenhang häufig auch der Begriff der maschinellen Intelligenz verwendet. \cite{fogel1966artificial}
+
+Aktuelle Forschungsarbeiten betonen erneut, dass KI‑Systeme über reine Mustererkennung hinausgehen sollten. Stattdessen wird gefordert, dass sie kausale Modelle der Welt aufbauen, die erklärbares Verhalten, Verständnis und fundierte Schlussfolgerungen ermöglichen. Diese Perspektive verbindet moderne maschinelle Lernverfahren mit strukturierten, kognitiv inspirierten Modellen und stellt einen wichtigen Entwicklungsschritt für erklärbare und vertrauenswürdige KI‑Systeme dar. \cite{holzinger2019causability}
+
+In den nachfolgenden Kapiteln werden die grundlegenden theoretischen und methodischen Grundlagen der Künstlichen Intelligenz dargelegt.
+
+\subsection{Grundlagen des Maschinellen Lernens} 
+Maschinelles Lernen (Machine Learning, ML) stellt ein besonders praxisnahes Teilgebiet der Künstlichen Intelligenz dar. Es befasst sich mit der Entwicklung von Algorithmen, die in der Lage sind, aus vorhandenen Daten selbstständig zu lernen, Wissen aus Erfahrung abzuleiten und auf dieser Basis statistische Modelle für Analyse- und Vorhersageaufgaben zu erstellen. Ziel ist es, Systeme zu entwickeln, die ohne explizite Programmierung für eine spezifische Aufgabe Muster in Daten erkennen und verlässliche Prognosen für neue, unbekannte Daten treffen können. \cite{tenenbaum2011grow}
+
+
+Zentrale Herausforderungen im ML betreffen insbesondere die Modellierung komplexer und hochdimensionaler Daten, die Bildung aussagekräftiger Repräsentationen sowie die Entscheidungsfindung unter Unsicherheit. Aufgrund seiner breiten Anwendbarkeit stellt ML einen Kernbestandteil moderner KI-Systeme dar und unterstützt datenbasierte Entscheidungsprozesse in Wissenschaft und Industrie. 
+Neben den theoretischen Fortschritten haben insbesondere in den vergangenen Jahren die praktischen Anwendungen des MLs erheblich zugenommen. Diese Entwicklung wird nicht nur von Informatikern und KI-Forschern vorangetrieben, sondern auch von Wissenschaftlern anderer Disziplinen, die ML-Methoden zur Lösung fachbezogener Fragestellungen einsetzen. \cite{jordan2015machine}
+
+\begin{figure}[h] % h = here (hier), t = top, b = bottom
+	\centering
+	\includegraphics[width=0.7\textwidth]{\imagedir/Euler Circles(ML).png} % Bildname ohne Endung
+	\caption{Einordnung von Künstlicher Intelligenz, Maschinellem Lernen und Deep Learning \cite{bengio2017deep}}
+	\label{Euler Circles}
+\end{figure}
+
+Eine besondere Rolle nimmt dabei das Deep Learning ein, ein Teilgebiet des maschinellen Lernens (Abb. \ref{Euler Circles}), das auf künstlichen neuronalen Netzen basiert. Deep-Learning-Methoden haben in den vergangenen Jahren maßgeblich zum Leistungszuwachs moderner KI-Systeme beigetragen und eröffnen neue Anwendungsfelder, insbesondere bei der Verarbeitung großer und komplexer Datenmengen. \cite{abadi2016tensorflow}
+
+
+
+\subsection{Ansätze des Machine Learning}
+
+KI-Systeme lassen sich anhand ihrer Lernstrategie klassifizieren. Abhängig von der Art des Lernprozesses können die folgenden Hauptkategorien (Abb. \ref{Lernparadigmen}) unterschieden werden \cite{golec2025artificial}
+
+
+\begin{figure}[h] % h = here (hier), t = top, b = bottom
+	\centering
+	\includegraphics[width=1.0\textwidth]{\imagedir/Lernparadigmen.png} % Bildname ohne Endung
+	\caption{Zusammahang zwischen AI, Machine und Deep Learning(andere übeerschrift) \cite{golec2025artificial}}
+	\label{Lernparadigmen}
+\end{figure}
+
+
+\subsubsection{Überwachtes Lernen (Supervised Learning)}
+
+Beim überwachten Lernen wird ein Modell anhand gelabelter Trainingsdaten trainiert, bei denen zu jeder Eingabevariable \(X\) eine bekannte Zielvariable \(Y\) vorliegt. Ziel ist es, eine Abbildungsfunktion zu erlernen, die es ermöglicht, für neue, bislang unbekannte Eingaben korrekte Ausgaben vorherzusagen. \cite{bishop1995neural}
+
+Wie in der Abbildung dargestellt, lassen sich zwei Hauptaufgabentypen unterscheiden:
+\begin{itemize}
+	\item \textbf{Klassifikation}: Die Zielvariable ist diskret, und das Modell ordnet Eingabedaten vordefinierten Klassen zu (z.\,B. Trennung von Datenpunkten in verschiedene Kategorien).
+	\item \textbf{Regression}: Die Zielvariable ist kontinuierlich, und das Modell sagt numerische Werte voraus (z.\,B. eine lineare Beziehung zwischen Eingabe‑ und Ausgabedaten).
+\end{itemize}
+
+Supervised Learning wird häufig eingesetzt, wenn ausreichend gelabelte Daten verfügbar sind und konkrete Vorhersagen oder Entscheidungen getroffen werden sollen.
+
+	
+\subsubsection{Unüberwachtes Lernen (Unsupervised Learning)}
+
+Im Gegensatz dazu arbeitet das unüberwachte Lernen ohne gelabelte Zielwerte. Das Modell erhält ausschließlich Eingabedaten \(X\) und versucht, selbstständig Strukturen, Muster oder Zusammenhänge innerhalb der Daten zu identifizieren.
+In der Abbildung ist als typisches Beispiel das \textbf{Clustering} dargestellt. Dabei werden Datenpunkte anhand von Ähnlichkeiten in Gruppen eingeteilt, ohne dass diese Gruppen zuvor definiert sind. Ziel ist es, verborgene Strukturen oder natürliche Gruppierungen in den Daten sichtbar zu machen.
+Unsupervised Learning eignet sich insbesondere für explorative Analysen, Vorverarbeitungsschritte sowie für Anwendungen, bei denen keine oder nur schwer zu beschaffende Labels vorliegen. \cite{neuer2024unuberwachtes}
+
+
+	
+
+
+\subsubsection{Bestärkendes Lernen (Reinforcement Learning)}	
+Das bestärkende Lernen (Reinforcement Learning) unterscheidet sich grundlegend vom überwachten und unüberwachten Lernen. E in Agent lernt nicht aus gelabelten Beispielen oder aus statischen Datenstrukturen, sondern durch fortlaufende Interaktion mit einer Umgebung.
+Der Agent wählt in einem gegebenen Zustand eine Aktion aus und erhält als Rückmeldung eine Belohnung oder Bestrafung. Ziel des Lernprozesses ist es, eine optimale Strategie (Policy) zu erlernen, die den langfristigen kumulierten Belohnungswert maximiert. Dabei entsteht das Wissen schrittweise durch Versuch und Irrtum. \cite{kaelbling1996reinforcement}
+
+Reinforcement Learning eignet sich insbesondere für Entscheidungs‑ und Steuerungsprobleme, bei denen die Konsequenzen von Aktionen zeitlich verzögert auftreten und keine expliziten Zielwerte vorgegeben sind. Typische Anwendungsbereiche sind unter anderem Robotik, autonome Systeme, Spiele, Prozesssteuerung sowie adaptive Optimierungsprobleme. \cite{li2017deep}
+	
+Neben den klassischen überwachten und unüberwachten Lernverfahren haben sich in den letzten Jahren weitere Lernparadigmen etabliert. Semi-Supervised Learning kombiniert kleine Mengen gelabelter Daten mit großen Mengen ungelabelter Daten, während Self-Supervised Learning automatisch Lernziele aus den Daten selbst ableitet. Diese Ansätze sind insbesondere bei datenknappen industriellen Anwendungen von hoher Relevanz. \cite{zhu2005semi}  \cite{gui2024survey}
+
+%\subsection{Modell- und Methodenklassen}(DIE QUELLEN!!!!!)
+
+%Unabhängig vom verwendeten Lernparadigma lassen sich KI-Methoden anhand der zugrunde liegenden Modell- und Methodenklassen strukturieren. Diese Klassifikation beschreibt, wie Eingaben intern repräsentiert und verarbeitet werden.
+
+%%\begin{itemize}
+	%\item \textbf{Lineare Modelle:}  
+	%Lineare Modelle wie die lineare und logistische Regression stellen einfache und gut interpretierbare Ansätze dar. Sie eignen sich insbesondere für Probleme mit geringer Modellkomplexität und kleinen Datensätzen und bilden häufig die Basis für statistische Lernverfahren. \cite{james2013introduction}
+	
+	%\item \textbf{Baumbasierte Modelle:}  
+	%Entscheidungsbäume partitionieren den Merkmalsraum schrittweise in zunehmend homogene Teilmengen. Zu den Vorteilen zählen Interpretierbarkeit, flexible Verarbeitung unterschiedlicher Datentypen sowie robuste Handhabung fehlender Werte. Ensemble-Varianten (z.\,B. Random Forests, Gradient Boosting) erhöhen häufig die Vorhersagegüte \cite{breiman2017classification}.
+	
+	%\item \textbf{Kernelbasierte Methoden:}  
+	%Kernelmethoden wie SVM projizieren Daten implizit in hochdimensionale Merkmalsräume und ermöglichen dadurch leistungsfähige nichtlineare Trennungen, insbesondere bei hochdimensionalen und strukturierten Daten.
+	
+	%\item \textbf{Deep Learning:}  
+	%Deep Learning stellt ein Teilgebiet des maschinellen Lernens dar und basiert auf mehrschichtigen künstlichen neuronalen Netzen. Zu den bekanntesten Architekturen zählen Convolutional Neural Networks (CNN) und Recurrent Neural Networks (RNN), die insbesondere in Anwendungsbereichen wie der Bild‑ und Spracherkennung eingesetzt werden. CNNs nutzen Faltungsfilter, um hierarchische Merkmale aus den Daten zu extrahieren, was zu einer hohen Vorhersagegenauigkeit führt. \cite{abadi2016tensorflow}
+	
+	%Trotz ihrer hohen Leistungsfähigkeit erfordern Deep‑Learning‑Modelle große Mengen gelabelter Daten sowie erhebliche Rechenressourcen. Overfitting bleibt eine zentrale Herausforderung, weshalb Techniken wie Batch‑Normalisierung, Dropout und Aufmerksamkeitsmechanismen eingesetzt werden. In den letzten Jahren haben insbesondere Transformer‑Architekturen zu bedeutenden Fortschritten geführt, vor allem im Bereich großer Sprachmodelle (Large Language Models, LLMs).  \cite{vaswani2017attention}
+	%\end{itemize}
+
+
+
+
+%Ziel dieser Arbeit ist es, den typischen Workflow des maschinellen Lernens im Kontext der rechnergestützten Materialwissenschaft darzustellen und die einzelnen Phasen anhand ausgewählter Beispiele zu erläutern. Dabei werden sowohl die Potenziale als auch zentrale Fragestellungen betrachtet, die bei der Implementierung ML-basierter Modellierungsansätze zu berücksichtigen sind. Aufgrund der hohen Dynamik und der rasanten Weiterentwicklung dieses Forschungsfeldes kann kein vollständiger Überblick gegeben werden. Stattdessen werden exemplarisch ausgewählte Methoden vorgestellt, die sich in realen Anwendungen der computergestützten Material- und Chemieforschung als besonders relevant erwiesen haben oder aktuelle, vielversprechende Entwicklungen repräsentieren. %\cite{li2015big}
+
+
+\subsection{Evaluierungsmetriken im Machine Learning}(Vllt. in die Evaluierungskapitel....)
+%NACHSCHREIBEN!!!!
+Die Evaluation von Machine-Learning-Modellen ist ein zentraler Bestandteil datengetriebener Analysen, da sie eine objektive Beurteilung der Modellleistung ermöglicht. Evaluierungsmetriken dienen dazu, die Abweichung zwischen vorhergesagten Modellwerten und bekannten Referenzwerten quantitativ zu erfassen und unterschiedliche Modelle oder Modellkonfigurationen vergleichbar zu machen. Eine geeignete Wahl der Metriken ist dabei entscheidend, da unterschiedliche Fehlermaße unterschiedliche Aspekte der Modellgüte betonen.
+
+\subsubsection{MAE (Mean Absolute Error)}
+Der Mean Absolute Error (MAE) misst den durchschnittlichen absoluten Vorhersagefehler:
+\begin{equation}
+	\mathrm{MAE} \;=\; \frac{1}{n}\sum_{i=1}^{n}\left|y_i-\hat{y}_i\right|.
+\end{equation}
+MAE ist besonders geeignet, wenn Fehler \emph{linear} bestraft werden sollen und wenn Robustheit gegenüber Ausreißern wünschenswert ist, da die Fehler nicht quadriert werden. \cite{willmott2005advantages}
+%n praktischen Regressions-Setups wird MAE deshalb häufig als  \"typischer Fehler\" berichtet, insbesondere wenn einzelne extreme Abweichungen nicht dominieren sollen.
+\subsubsection{RMSE (Root Mean Squared Error)}
+Der Root Mean Squared Error (RMSE) ist die Wurzel des mittleren quadratischen Fehlers:
+\begin{equation}
+	\mathrm{RMSE} \;=\; \sqrt{\frac{1}{n}\sum_{i=1}^{n}\left(y_i-\hat{y}_i\right)^2}.
+\end{equation}
+RMSE gewichtet große Fehler stärker (Quadrat), wodurch er sinnvoll ist, wenn seltene große Abweichungen besonders schädlich sind.
+Gleichzeitig ist RMSE unter bestimmten Annahmen statistisch natürlich: Bei näherungsweise normalverteilten Fehlern (Gaussian errors) ist RMSE als Maß der \glqq typischen\grqq\ Streuung besonders passend. \cite{chai2014root}
+
+
+\subsubsection{$R^2$ (Koeffizient der Determination)}
+Der Determinationskoeffizient $R^2$ misst (in einer verbreiteten Form) den Anteil der Varianz von $y$, der durch das Modell erklärt wird, und ist wie folgt definiert:
+\begin{equation}
+	R^2 \;=\; 1 - \frac{\sum_{i=1}^{n}(y_i-\hat{y}_i)^2}{\sum_{i=1}^{n}(y_i-\bar{y})^2}.
+\end{equation}
+$R^2$ hat eine wichtige Baseline-Interpretation: Der Wert $R^2=0$ entspricht einer trivialen Vorhersage durch die horizontale Linie $y=\bar{y}$ (Mittelwert-Prädiktor), und negative Werte bedeuten, dass das Modell schlechter ist als diese Baseline. Damit eignet sich $R^2$ gut, um \emph{relativ} zur Datenvariabilität zu kommunizieren, ob ein Modell überhaupt über ein naives Mittelwertmodell hinausgeht. \cite{cameron1997r}
+
+Die hier vorgestellten Evaluierungsmetriken werden im weiteren Verlauf der Arbeit zur quantitativen Bewertung der KI‑basierten Vorhersagen eingesetzt und im Evaluierungskapitel im Kontext der Materialentwicklung interpretiert.
+
+(student T'Distribution?!)
+
+
+%\subsection{Generative AI und datengetriebene Modellierung}
+%\cite{kreutzer2019kunstliche}
+\subsection{Erklärbare Künstliche Intelligenz (XAI)}
+Der zunehmende Einsatz Künstlicher Intelligenz in industriellen Anwendungen, insbesondere im Automobilbau, erfordert ein hohes Maß an Transparenz und Nachvollziehbarkeit der getroffenen Modellentscheidungen. In diesem Kontext gewinnt erklärbare Künstliche Intelligenz (Explainable Artificial Intelligence, XAI) an Bedeutung, da sie Einblicke in die Entscheidungslogik datengetriebener Modelle ermöglicht und somit Vertrauen in KI‑gestützte Systeme schafft. \cite{dwivedi2023explainable}
+
+Gerade im Bereich der nachhaltigen Material‑ und Prozessentwicklung, etwa bei der Auswahl von Werkstoffen oder der Optimierung energieintensiver Fertigungsschritte wie Beschichtungs‑ und Lackierprozessen, ist die Interpretierbarkeit von KI‑Modellen von zentraler Bedeutung. Moderne Machine‑Learning‑Verfahren, darunter Ensemble‑Modelle, tiefe neuronale Netze oder Support‑Vector‑Methoden, liefern zwar hohe Vorhersagegenauigkeiten, agieren jedoch häufig als Black‑Box‑Modelle. Dies erschwert es, die zugrunde liegenden Zusammenhänge zwischen Materialeigenschaften, Prozessparametern, Kosten und Umweltwirkungen zu verstehen. \cite{liu2025explainable}
+
+XAI‑Methoden adressieren diese Herausforderung, indem sie den Einfluss einzelner Eingangsgrößen auf Modellvorhersagen quantifizieren und visualisieren. Verfahren wie SHapley Additive exPlanations (SHAP)  oder Local Interpretable Model‑Agnostic Explanations (LIME) ermöglichen es beispielsweise, aufzuzeigen, welche Materialparameter oder Prozessschritte maßgeblich zu erhöhtem Energieverbrauch, Kosten oder Emissionen beitragen. Im PLM‑Kontext lassen sich diese Erklärungen direkt mit produkt‑ und prozessbezogenen Daten verknüpfen, sodass Entscheidungen entlang des gesamten Produktlebenszyklus nachvollziehbar und datenbasiert getroffen werden können. \cite{arrieta2020explainable}
+
+\begin{itemize}
+	\item \textbf{SHapley Additive exPlanations (SHAP):}  
+	SHAP basiert auf spieltheoretischen Shapley‑Werten und quantifiziert den Beitrag einzelner Eingangsmerkmale zur Modellvorhersage. Die Methode liefert sowohl lokale Erklärungen für einzelne Vorhersagen als auch globale Aussagen über die Merkmalswichtigkeit. SHAP eignet sich insbesondere zur Analyse komplexer Modelle und ermöglicht eine konsistente und vergleichbare Interpretation von Material‑ und Prozessparametern.\cite{nohara2022explanation}
+	
+	\item \textbf{Local Interpretable Model‑Agnostic Explanations (LIME):}  
+	LIME erklärt Modellentscheidungen lokal, indem es die Vorhersage eines komplexen Modells in der Umgebung eines einzelnen Datenpunkts durch ein einfaches, interpretierbares Ersatzmodell approximiert. Dadurch lassen sich die wichtigsten Einflussfaktoren für eine konkrete Vorhersage identifizieren. LIME ist modellagnostisch und besonders geeignet für fallbezogene Analysen und Entscheidungsunterstützung. \cite{zafar2021deterministic}
+\end{itemize}
+
+Zahlreiche aktuelle Studien zeigen, dass XAI‑Methoden erfolgreich eingesetzt werden können, um kritische Designparameter zu identifizieren, Materialeigenschaften gezielt zu optimieren und die Zuverlässigkeit datengetriebener Modelle in unterschiedlichen materialwissenschaftlichen Anwendungen zu erhöhen. Damit stellt erklärbare Künstliche Intelligenz einen entscheidenden Baustein für den verantwortungsvollen und nachhaltigen Einsatz von KI in der Materialentwicklung und im Engineering dar. \cite{liu2021stochastic} \cite{liu2022surrogate}
+
+
+%\cite{lakshmi2024explainable}!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+\subsection{Modelvertrauen}
+
+\section{Daten \& Repräsentationen}
+%Um ein KI‑Modell korrekt zu trainieren, ist es erforderlich, zwischen unterschiedlichen Datentypen zu unterscheiden und deren jeweilige Eigenschaften zu berücksichtigen. Eine sachgerechte Interpretation der Daten bildet die Grundlage für die Leistungsfähigkeit und Zuverlässigkeit des Modells. Hierzu gehört insbesondere das Verständnis darüber, wie verschiedene Datenformate vom Modell verarbeitet werden und welche Bedeutung ihnen im Lernprozess zukommt.
+%Darüber hinaus ist die Identifikation fehlerhafter, inkonsistenter oder fehlender Daten von zentraler Bedeutung. Falsch interpretierte Daten, Ausreißer oder unvollständige Datensätze können den Trainingsprozess negativ beeinflussen und zu verzerrten oder nicht aussagekräftigen Ergebnissen führen. Eine sorgfältige Analyse und Aufbereitung der Daten ist daher eine wesentliche Voraussetzung, um ein KI‑Modell valide zu „füttern“ und belastbare Vorhersagen zu ermöglichen.
+Um ein KI-Modell valide zu trainieren, ist die korrekte Interpretation und Aufbereitung der zugrunde liegenden Daten von zentraler Bedeutung. Fehlerhafte, inkonsistente oder unvollständige Datensätze können den Lernprozess erheblich beeinträchtigen und zu verzerrten oder nicht belastbaren Vorhersagen führen. Eine systematische Analyse der Datentypen sowie eine sorgfältige Datenvorbereitung bilden daher die Grundlage für leistungsfähige und zuverlässige KI-Modelle.
+
+\subsection{Datentypen}
+Im Kontext der KI-gestützten Materialentwicklung und des Product Lifecycle Managements (PLM) lassen sich relevante Datentypen in drei Hauptkategorien einteilen: strukturierte, semi-strukturierte und unstrukturierte Daten. Diese Klassifikation ist insbesondere für die Bewertung der Datenqualität, der Integrationsfähigkeit sowie der Eignung für maschinelle Lernverfahren von Bedeutung.  \cite{bry2001aktuelles}
+
+
+\subsubsection{Unstrukturierte Daten}
+Unstrukturierte Daten besitzen keine feste oder vordefinierte Datenstruktur und liegen in heterogenen Formaten vor. Im industriellen Materialkontext umfassen sie beispielsweise Laborberichte, Versuchsprotokolle, wissenschaftliche Publikationen, PDF-Dokumente, Bilder von Mikrostrukturen oder Messkurven aus experimentellen Untersuchungen.
+Diese Daten enthalten häufig wertvolles Expertenwissen, sind jedoch für automatisierte Analysen nur eingeschränkt nutzbar und erfordern aufwendige Vorverarbeitungsschritte wie Textanalyse, Bildverarbeitung oder semantische Annotation. \cite{katal2013big}
+
+\subsubsection{Semi-strukturierte Daten}
+Semi-strukturierte Daten weisen eine partielle Struktur auf, die jedoch nicht den strengen Anforderungen relationaler Datenbanksysteme entspricht. Typische Beispiele im PLM-Umfeld sind XML- oder JSON-basierte Austauschformate, Materialdatenblätter, Metadatenbeschreibungen sowie standardisierte Schnittstellenformate.
+Diese Datentypen stellen einen wichtigen Vermittler zwischen unstrukturierten Dokumenten und strukturierten Datenbanken dar und ermöglichen eine flexible, aber dennoch maschinenlesbare Repräsentation materialbezogener Informationen. \cite{barowy2015flashrelate}
+
+\subsubsection{Strukturierte Daten}
+Strukturierte Daten liegen in klar definierten Schemata vor und werden üblicherweise in relationalen Datenbanksystemen gespeichert. Im Kontext der Materialentwicklung umfassen sie unter anderem Materialkennwerte, Stücklisten (BOM), Prozessparameter, Simulationsergebnisse sowie Lebenszyklus- und Nachhaltigkeitskennzahlen.
+Insbesondere PLM- und ERP-Systeme generieren prozessvermittelte strukturierte Daten, die eine konsistente Analyse, Vergleichbarkeit und Integration in KI-gestützte Entscheidungsmodelle ermöglichen. \cite{arasu2003extracting}
+
+
+
+
+
+
+
+\subsection{Datenvorbereitung (Data Preprocessing)}
+
+Nachdem die verschiedenen Datentypen erläutert wurden, wird im Folgenden beschrieben, wie Daten für Analyse- und Data-Mining-Zwecke vorbereitet werden. Die Datenvorbereitung stellt in der Regel einen unverzichtbaren Schritt im Data-Mining-Prozess dar. Sie dient dazu, ursprünglich ungeeignete oder unvollständige Rohdaten in eine Form zu überführen, die für Data-Mining-Algorithmen nutzbar ist. Ohne eine angemessene Datenvorbereitung kann ein Algorithmus entweder nicht korrekt ausgeführt werden oder während der Laufzeit Fehler erzeugen. Selbst in Fällen, in denen der Algorithmus formal erfolgreich ausgeführt wird, sind die resultierenden Ergebnisse häufig nicht aussagekräftig oder können nicht als verlässliches Wissen interpretiert werden. \cite{garcia2016big}
+
+Vor diesem Hintergrund stellt sich die Frage, welche grundlegenden Problemstellungen im Rahmen der Datenvorbereitung adressiert werden müssen. Im Folgenden werden zentrale Fragestellungen der Datenvorbereitung aufgeführt und den jeweils zugehörigen Techniken zugeordnet (Abb. \ref{Datenvorverarbeitung}): \cite{garcia2015data}
+
+\begin{figure}[h] % h = here (hier), t = top, b = bottom
+	\centering
+	\includegraphics[width=0.7\textwidth]{\imagedir/Databereinigung.png} % Bildname ohne Endung
+	\caption{Zentrale Schritte der Datenvorbereitung im Data-Mining-Prozess(andere übeerschrift?!) \cite{garcia2016big}}
+	\label{Datenvorverarbeitung}
+\end{figure}
+
+
+\begin{itemize}
+	\item \textbf{Datenbereinigung (Data Cleaning)}:  
+	Rohdaten enthalten häufig unvollständige Datensätze, Rauschen, Ausreißer sowie inkonsistente oder fehlerhafte Werte. Die Datenbereinigung stellt daher einen der ersten und wichtigsten Schritte im Rahmen der Datenvorverarbeitung dar. Ziel dieses Prozesses ist es, fehlende Werte zu identifizieren, verrauschte Daten zu glätten, Ausreißer zu erkennen sowie inkonsistente oder fehlerhafte Einträge zu korrigieren.
+	Solche sogenannten „verschmutzten“ Daten können den Data-Mining‑Prozess erheblich beeinträchtigen und zu unzuverlässigen oder qualitativ schlechten Ergebnissen führen. Selbst leistungsfähige Analyse‑ und Lernalgorithmen sind nicht in der Lage, fehlerhafte Eingabedaten zu kompensieren. Aus diesem Grund ist der Einsatz geeigneter Datenbereinigungsroutinen von zentraler Bedeutung, um die Qualität der Daten und damit die Aussagekraft der resultierenden Modelle zu verbessern.
+	Typische Verfahren der Datenbereinigung umfassen unter anderem die Behandlung fehlender Werte, die Erkennung und Entfernung von Duplikaten, die Identifikation von Ausreißern sowie die Korrektur inkonsistenter Datenformate oder Wertebereiche. Tabelle~1 zeigt beispielhaft einen Datensatz mit fehlerhaften beziehungsweise unvollständigen Einträgen. \cite{pyle1999data}
+	
+	\item \textbf{Datentransformation (Data Transformation)}:  
+	In diesem Schritt der Datenvorverarbeitung werden Daten umgewandelt oder zusammengeführt, um den Data‑Mining‑Prozess effizienter zu gestalten und die Anwendbarkeit der Ergebnisse zu verbessern. Die Datentransformation umfasst verschiedene Teilaufgaben wie Glättung von Daten, Merkmalskonstruktion, Aggregation bzw. Zusammenfassung von Daten, Normalisierung, Diskretisierung sowie Generalisierung.
+	Viele dieser Schritte können als eigenständige Aufgaben betrachtet werden, da die Datentransformation – ähnlich wie die Datenbereinigung – eine allgemeine Klasse von Vorverarbeitungstechniken darstellt. Bestimmte Transformationsaufgaben erfordern jedoch menschliche Expertise und sind stark datenabhängig, etwa die Erstellung aggregierter Attribute, die Generierung von Berichten oder die Generalisierung kategorialer Merkmale, beispielsweise durch die Ersetzung vollständiger Datumsangaben durch Jahreswerte. \cite{baskar2013systemwebatic}
+	
+	\item \textbf{Datenintegration (Data Integration)}:  
+	Die Datenintegration umfasst die Zusammenführung von Daten aus mehreren Datenquellen zu einem konsistenten Gesamtdatensatz. Dieser Prozess muss sorgfältig durchgeführt werden, um Redundanzen und Inkonsistenzen in den integrierten Daten zu vermeiden.
+	Typische Aufgaben der Datenintegration sind die Identifikation und Vereinheitlichung von Variablen und Wertebereichen, die Analyse von Attributkorrelationen, die Erkennung und Behandlung von Duplikaten sowie die Auflösung widersprüchlicher Datenwerte aus unterschiedlichen Quellen. \cite{witten2005practical}
+	
+	\item \textbf{Datennormalisierung (Data Normalization)}:  
+	Die verwendeten Maßeinheiten und Wertebereiche einzelner Attribute können die Ergebnisse von Datenanalysen maßgeblich beeinflussen. Daher sollten alle Attribute in einheitlichen Maßeinheiten vorliegen und eine gemeinsame Skala oder einen vergleichbaren Wertebereich verwenden.
+	Die Datennormalisierung zielt darauf ab, allen Attributen ein gleiches Gewicht im Analyse‑ oder Lernprozess zu geben. Dieser Schritt ist insbesondere für statistische Lernverfahren und distanzbasierte Algorithmen von großer Bedeutung. 
+	Im materialwissenschaftlichen Kontext ist die Vereinheitlichung physikalischer Einheiten (z.B. MPa, GPa, °C) von besonderer Bedeutung, da inkonsistente Skalierungen physikalisch nicht interpretierbare Modelle begünstigen können. \cite{saez2013predicting}
+	
+	\item \textbf{Imputation fehlender Werte (Missing Data Imputation)}:  
+	Die Imputation fehlender Werte ist ein Bestandteil der Datenbereinigung und hat das Ziel, Variablen mit fehlenden Werten durch geeignete Schätzungen zu ergänzen. In vielen Fällen ist es sinnvoller, fehlende Einträge durch plausible Werte zu ersetzen, als sie unbehandelt zu lassen, da zahlreiche Analyse‑ und Lernverfahren keine fehlenden Werte verarbeiten können. Die Wahl der Imputationsmethode hängt vom Datentyp, der Datenverteilung sowie vom Anwendungsfall ab. \cite{luengo2012choice}
+	
+	\item \textbf{Rauscherkennung (Noise Identification)}:  
+	Die Rauscherkennung ist ebenfalls Teil der Datenbereinigung und wird in der Datentransformation häufig als Glättung bezeichnet. Ihr Hauptziel besteht in der Identifikation zufälliger Fehler oder unerwünschter Variationen in Messwerten. Dabei liegt der Fokus auf der Erkennung von Rauschen, nicht auf dessen Entfernung, die typischerweise dem Bereich der Datenreduktion zuzuordnen ist. Nach der Identifikation verrauschter Datenpunkte können korrekturbasierte Verfahren angewendet werden, um deren Einfluss auf nachfolgende Analyse‑ oder Lernprozesse zu reduzieren. \cite{saez2013predicting}
+\end{itemize}
+
+\subsubsection{Data Leakage}
+
+Ein zentrales Risiko im Rahmen der Datenvorbereitung stellt auch die sogenannte Datenleckage dar. Im Kontext der Materialentwicklung und des Product Lifecycle Managements (PLM) bezeichnet Datenleckage die unbeabsichtigte oder unautorisierte Weitergabe sensibler produkt‑ und materialbezogener Informationen, wie Materialrezepturen, Prozessparameter, Simulationsergebnisse oder Entwicklungsstände. Da PLM‑Systeme als zentrale Datenplattformen kritische Informationen über den gesamten Produktlebenszyklus bündeln und mit externen Systemen sowie Partnern vernetzt sind, stellt Datenleckage ein erhebliches Risiko für den Schutz geistigen Eigentums dar. Insbesondere bei daten‑ und KI‑gestützten Materialentwicklungsprozessen ist daher ein konsequentes Daten‑ und Zugriffsmanagement erforderlich. \cite{alneyadi2016survey} \cite{chen2022blockchain} 
+
+\subsection{Feature Selection und Feature Engineering}
+Neben der technischen Aufbereitung der Daten spielt auch die Auswahl und Konstruktion geeigneter Merkmale eine zentrale Rolle für die Leistungsfähigkeit von KI-Modellen.
+Im Rahmen der Datenvorbereitung ist zwischen Feature Engineering und Feature Selection zu unterscheiden. Feature Engineering bezeichnet die gezielte Erzeugung oder Transformation von Merkmalen, um relevante Informationen aus Rohdaten besser für maschinelle Lernverfahren nutzbar zu machen.
+Feature Selection hingegen zielt darauf ab, aus einer gegebenen Merkmalsmenge irrelevante, redundante oder stark korrelierte Attribute zu entfernen. Dies kann die Modellkomplexität reduzieren, die Interpretierbarkeit erhöhen und das Risiko von Overfitting verringern. Beide Ansätze ergänzen sich und spielen insbesondere bei hochdimensionalen Material- und Prozessdaten eine zentrale Rolle. \cite{nargesian2017learning}
+
+
+\subsection{Materialrepräsentationen und Deskriptoren?!}
+\subsection{physickbasierte Materialrepräsentation}
+
+
+
+
+

@@ -65,7 +65,11 @@
 % (!!) FOOTNOTE POSITION NOT RECOMMENDED IN MINT DOMAIN:
 % autocite=footnote
 %
-\usepackage[backend=biber, autocite=inline, style=numeric]{biblatex} 	
+\usepackage[backend=biber, 
+			autocite=inline, 
+			style=numeric,
+			sorting=none   % ← WICHTIG!
+			]{biblatex} 	
 \usepackage{makeidx}                  % allows index generation
 \usepackage{listings}	                %Format Listings properly
 \usepackage{lipsum}                   % Blindtext
@@ -83,6 +87,7 @@
 \usepackage{setspace}
 \usepackage{tocloft}
 \usepackage[T1]{fontenc}
+\usepackage[scaled]{uarial}
 
 % Definitionen und Commands
 \newcommand{\indextype}{numeric}
@@ -242,6 +247,10 @@
 
 % mehrere Grundlagen- und Forschungs-Kapitel
 \input{Grundlage}
+\input{Materialentwicklung im industriellen Kontext}
+\input{Nachhaltigkeit in der Materialentwicklung}
+\input{Methodik der KI-gestützten Materialanalyse}
+\input{Evaluierung des KI‑Einsatzes}
 \input{chapter2}
 
 % Fazit und Ausblick
