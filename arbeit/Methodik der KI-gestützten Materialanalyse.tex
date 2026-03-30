@@ -1,4 +1,40 @@
 % !TEX root =  master.tex
 \chapter{Methodik der KI-gestützten Materialanalyse(CRISM-DM)}
 
+\section{Methodik CRISP-DM}
+Die sorgfältige und strukturierte Analyse von Daten ist ein essenzieller Bestandteil aktueller datengetriebener Entscheidungsprozesse. Um Data-Mining-Projekte
+effizient und nachvollziehbar umzusetzen, hat sich die CRISP-DM - Methodik als
+branchenübergreifender Standard erwiesen. Dieses Kapitel
+widmet sich der Beschreibung der sechs Phasen der CRISP-DM-Methodik sowie
+ihrer Anwendung im Kontext des Data Collection Assistant. \cite{bemthuis2025crisp}
 
+(Bild hier eifügen und bilder woanders wie tabelle)
+
+\begin{figure}[h] % h = here (hier), t = top, b = bottom
+	\centering
+	\includegraphics[width=0.7\textwidth]{\imagedir/Crism-DM.png} % Bildname ohne Endung
+	\caption{ Phasen des aktuellen CRISP-DM-Prozessmodells \cite{asdsasdas}}
+	\label{CRISMDM}
+\end{figure}
+
+Im olgenden werden die einzelnen Phasen kurz beschrieben:
+\begin{itemize}
+	\item \textbf{Business Understanding:}
+	In dieser Phase werden Ziele, Anforderungen und Rahmenbedingungen aus fachlich-geschäftlicher Sicht präzisiert. Anschließend werden die Ziele in ein Data-Mining-Problem überführt und ein erster Projektplan erstellt. \cite{wirth2000crisp}
+	
+	\item \textbf{Data Understanding:}
+	Beginnend mit einer initialen Datensammlung werden die Daten exploriert, um Datenqualität zu prüfen, erste Erkenntnisse zu gewinnen und relevante Teilmengen zu identifizieren. Business Understanding und Data Understanding sind eng verknüpft, da Problemdefinition und Planung ein grundlegendes Verständnis der verfügbaren Daten erfordern. \cite{baijens2020applying}
+	
+	\item \textbf{Data Preparation:}
+	Umfasst alle Schritte zur Erstellung des finalen Datensatzes für die Modellierung, typischerweise iterativ und ohne feste Reihenfolge (z.\,B. Selektion, Bereinigung, Feature Engineering und Transformationen). \cite{saltz2017predicting}
+	
+	\item \textbf{Modeling:}
+	Auswahl und Anwendung geeigneter Modellierungsverfahren sowie Parametrisierung (z.B. Tuning). Mehrere Verfahren können für denselben Problemtyp geeignet sein; teilweise sind spezifische Datenformate erforderlich. \cite{chapman_crispdm_2000}
+	
+	\item \textbf{Evaluation:}
+	Vertiefte Prüfung der Modelle im Hinblick auf die Geschäftsziele und Review der durchgeführten Schritte. Ziel ist die Entscheidung, ob und wie die Ergebnisse genutzt werden. \cite{bemthuis2025crisp}
+	
+	\item \textbf{Deployment:}
+	Aufbereitung und Bereitstellung der Ergebnisse für die Nutzung (z.\,B. Bericht oder implementierter Prozess). Häufig führen Anwender die Umsetzung durch; daher sollten erforderliche Maßnahmen frühzeitig definiert werden. \cite{saltz2017predicting}
+	
+\end{itemize}

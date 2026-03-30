@@ -35,37 +35,46 @@
 \contentsline {subsection}{\numberline {2.3.2}Datenvorbereitung (Data Preprocessing)}{14}{subsection.2.3.2}%
 \contentsline {subsubsection}{\nonumberline Data Leakage}{16}{subsubsection*.33}%
 \contentsline {subsection}{\numberline {2.3.3}Feature Selection und Feature Engineering}{17}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Materialrepräsentationen und Deskriptoren?!}{17}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}physickbasierte Materialrepräsentation}{17}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.4}Physik‑informiertes Machine Learning in der Materialwissenschaft}{17}{subsection.2.3.4}%
 \contentsline {chapter}{\numberline {3}Materialentwicklung im industriellen Kontext}{18}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Einführung in die Materialentwicklung}{18}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}Klassische Materialentwicklung}{18}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Rechnergestützte Materialentwicklung}{19}{subsection.3.1.2}%
 \contentsline {subsubsection}{\nonumberline Dichtefunktionaltheorie (DFT) und Simulation}{19}{subsubsection*.35}%
 \contentsline {section}{\numberline {3.2}(moderne) Materialentwicklung in der Automobilindustrie}{19}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Materialvielfalt und Werkstofen}{19}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Materialvielfalt und Werkstoffen}{19}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}PLM-gestützte Materialdatenhaltung}{20}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Zielkonflikte zwischen Kosten, Gewicht und Performance}{21}{subsection.3.2.3}%
 \contentsline {subsubsection}{\nonumberline Beispiel energie- und kostenintensiver Prozesse}{21}{subsubsection*.38}%
 \contentsline {subsection}{\numberline {3.2.4}KI für die Materialentwicklung}{21}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Materials Datenbanken \& Datenquellen}{22}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Physik‑informiertes Machine Learning in der Materialwissenschaft}{22}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.3}Materialdatenbanken \& Datenquellen}{22}{section.3.3}%
 \contentsline {chapter}{\numberline {4}Nachhaltigkeit in der Materialentwicklung}{23}{chapter.4}%
-\contentsline {subsection}{\numberline {4.0.1}Nachhaltigkeit}{23}{subsection.4.0.1}%
-\contentsline {subsection}{\numberline {4.0.2}Nachhaltigkeit der Materialien}{24}{subsection.4.0.2}%
-\contentsline {subsubsection}{\nonumberline Lebenszyklusbetrachtung (LCA)}{24}{subsubsection*.40}%
-\contentsline {chapter}{\numberline {5}Methodik der KI-gestützten Materialanalyse(CRISM-DM)}{25}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Evaluierung des KI‑Einsatzes}{26}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Evaluierungsstrategie}{26}{section.6.1}%
-\contentsline {chapter}{\numberline {7}Beispiel-Kapitel: Noch ein Kapitel}{27}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Abschnitt mit Coding}{27}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Noch ein Abschnitt mit Coding}{27}{section.7.2}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung}{28}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Fazit}{28}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Ausblick}{28}{section.8.2}%
-\contentsline {chapter}{Anhang}{}{section.8.2}
-\contentsline {chapter}{\numberline {A}Beispiel-Anhang: Testanhang}{29}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Abschnitt im Anhang}{29}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Noch ein Abschnitt im Anhang}{29}{section.A.2}%
-\contentsline {chapter}{\numberline {B}Beispiel-Anhang: Noch ein Testanhang}{31}{appendix.B}%
-\contentsline {chapter}{\nonumberline Bibliography}{32}{chapter*.41}%
+\contentsline {section}{\numberline {4.1}Grundlage der Nachhaltigkeit}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Relevanz der Nachhaltigkeit in Zahlen}{24}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Nachhaltigkeit der Materialien}{24}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Lebenszyklusbetrachtung (LCA)}{25}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Grundlage der LCA}{25}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Methodische Weiterentwicklung}{25}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Relevanz der LCA für diese Arbeit}{26}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Systemgrenzen}{26}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}\(CO_{2}\)-Fußabdruck}{27}{subsection.4.4.5}%
+\contentsline {chapter}{\numberline {5}Methodik der KI-gestützten Materialanalyse(CRISM-DM)}{29}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Methodik CRISP-DM}{29}{section.5.1}%
+\contentsline {chapter}{\numberline {6}KI‑gestützte nachhaltige Materialentwicklung}{31}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Toolsübersicht - Citrine}{31}{section.6.1}%
+\contentsline {section}{\numberline {6.2}APIs}{31}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}REST API}{32}{subsection.6.2.1}%
+\contentsline {chapter}{\numberline {7}Evaluierung des KI‑Einsatzes}{33}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Evaluierungsstrategie}{33}{section.7.1}%
+\contentsline {chapter}{\numberline {8}Beispiel-Kapitel: Noch ein Kapitel}{34}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Abschnitt mit Coding}{34}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Noch ein Abschnitt mit Coding}{34}{section.8.2}%
+\contentsline {chapter}{\numberline {9}Zusammenfassung}{35}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Fazit}{35}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Ausblick}{35}{section.9.2}%
+\contentsline {chapter}{Anhang}{}{section.9.2}
+\contentsline {chapter}{\numberline {A}Beispiel-Anhang: Testanhang}{36}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Abschnitt im Anhang}{36}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Noch ein Abschnitt im Anhang}{36}{section.A.2}%
+\contentsline {chapter}{\numberline {B}Beispiel-Anhang: Noch ein Testanhang}{38}{appendix.B}%
+\contentsline {chapter}{\nonumberline Bibliography}{39}{chapter*.40}%
